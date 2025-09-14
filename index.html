@@ -452,7 +452,8 @@
     if (congratsGif) {
         congratsGif.classList.remove('hidden');
     }
-
+    this.elements.finalScore.textContent = `${this.state.score} / ${this.state.totalInitialQuestions}`;
+    this.switchView('quiz-complete-view');
 },
 
 
@@ -671,6 +672,7 @@
 </script>  
 </body>
 </html>
+
 
 
 
