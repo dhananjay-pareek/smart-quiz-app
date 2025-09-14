@@ -231,7 +231,6 @@
     </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
         const App = {
             // STATE
             state: {
@@ -341,7 +340,7 @@
                     this.elements[viewKey].classList.add('hidden');
                 });
                 
-               const viewMap = {
+                const viewMap = {
                     'main-menu': 'mainMenu',
                     'quiz-view': 'quizView',
                     'quiz-complete-view': 'quizCompleteView',
@@ -451,8 +450,9 @@
             },
 
         completeQuiz() {
-
-}
+    this.elements.finalScore.textContent = `${this.state.score} / ${this.state.totalInitialQuestions}`;
+    this.switchView('quiz-complete-view');
+},
 
 
             // QUESTION MANAGEMENT
@@ -657,7 +657,7 @@
     // Optionally: hide the button after click
     // startBtn.style.display = "none";
   });
-        });
 </script>  
 </body>
 </html>
+
