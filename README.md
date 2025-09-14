@@ -40,7 +40,7 @@ Q: The Earth is flat
 
 ---
 
-##🔮 Future Ideas
+## 🔮 Future Ideas
 
 Add leaderboards & scoring 🏆
 
@@ -56,7 +56,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
 
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
