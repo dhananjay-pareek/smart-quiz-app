@@ -340,7 +340,14 @@
                     this.elements[viewKey].classList.add('hidden');
                 });
                 
-                const currentViewElement = this.elements[Object.keys(this.elements).find(key => key.toLowerCase().includes(this.state.currentView.split('-')[0]))];
+               const viewMap = {
+                    'main-menu': 'mainMenu',
+                    'quiz-view': 'quizView',
+                    'quiz-complete-view': 'quizCompleteView',
+                    'manage-questions-view': 'manageQuestionsView',
+                    'bulk-add-view': 'bulkAddView'
+                };
+                const currentViewElement = this.elements[viewMap[this.state.currentView]];
                 if (currentViewElement) {
                     currentViewElement.classList.remove('hidden');
                 }
@@ -442,39 +449,9 @@
                 }
             },
 
-//         completeQuiz() {
-//     if (this.state.score === this.state.totalInitialQuestions) {
-//         const gif = document.getElementById("congrats-gif");
+        completeQuiz() {
 
-//         // Show GIF in fullscreen
-//         gif.classList.remove("hidden");
-
-//         if (gif.requestFullscreen) {
-//             gif.requestFullscreen();
-//         } else if (gif.webkitRequestFullscreen) { // Safari
-//             gif.webkitRequestFullscreen();
-//         } else if (gif.msRequestFullscreen) { // Old IE/Edge
-//             gif.msRequestFullscreen();
-//         }
-
-//         // Hide GIF after 5 seconds (you can change duration)
-//         setTimeout(() => {
-//             if (document.exitFullscreen) {
-//                 document.exitFullscreen();
-//             } else if (document.webkitExitFullscreen) {
-//                 document.webkitExitFullscreen();
-//             } else if (document.msExitFullscreen) {
-//                 document.msExitFullscreen();
-//             }
-//             gif.classList.add("hidden");
-//         }, 5000);
-
-//     } else {
-//         this.showConfirmModal(
-//             `Quiz finished! Your score: ${this.state.score}/${this.state.totalInitialQuestions}`
-//         );
-//     }
-// }
+}
 
 
             // QUESTION MANAGEMENT
@@ -683,6 +660,7 @@
 </script>  
 </body>
 </html>
+
 
 
 
