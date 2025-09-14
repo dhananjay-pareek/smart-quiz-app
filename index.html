@@ -622,7 +622,18 @@
         App.init();
 
         //custom added
-         
+          const music = document.getElementById("bg-music");
+  const startBtn = document.getElementById("start-quiz-btn");
+
+  startBtn.addEventListener("click", () => {
+    // Play music when quiz starts
+    music.play().catch(error => {
+      console.log("Autoplay blocked:", error);
+    });
+    
+    // Optionally: hide the button after click
+    // startBtn.style.display = "none";
+  });
 
 </script>
 
@@ -630,6 +641,7 @@
 </body>
 
 </html>
+
 
 
 
