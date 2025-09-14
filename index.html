@@ -616,7 +616,29 @@
 
         // Start the application
         App.init();
+
+        //custom added
+        <audio id="bg-music" loop>
+  <source src="bg-music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<button id="start-quiz-btn" class="btn btn-primary">Start Quiz</button>
+
+<script>
+  const music = document.getElementById("bg-music");
+  const startBtn = document.getElementById("start-quiz-btn");
+
+  startBtn.addEventListener("click", () => {
+    // Play music when quiz starts
+    music.play().catch(error => {
+      console.log("Autoplay blocked:", error);
+    });
+  });
+</script>
+
     </script>
 </body>
 
 </html>
+
