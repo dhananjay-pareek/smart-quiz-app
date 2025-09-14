@@ -622,15 +622,16 @@
         App.init();
 
         //custom added
-
-  const music = document.getElementById("bg-music");
+         const music = document.getElementById("bg-music");
   const startBtn = document.getElementById("start-quiz-btn");
 
   startBtn.addEventListener("click", () => {
-    // Play music when quiz starts
+    // Start music
     music.play().catch(error => {
       console.log("Autoplay blocked:", error);
-    // Request fullscreen for the whole page
+    });
+
+    // Enter fullscreen
     if (document.documentElement.requestFullscreen) {
       document.documentElement.requestFullscreen();
     } else if (document.documentElement.webkitRequestFullscreen) { // Safari
@@ -638,13 +639,16 @@
     } else if (document.documentElement.msRequestFullscreen) { // Old IE/Edge
       document.documentElement.msRequestFullscreen();
     }
-  });
+
+    // Optionally hide button after start
+    // startBtn.style.display = "none";
 </script>
 
   
 </body>
 
 </html>
+
 
 
 
