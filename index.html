@@ -630,12 +630,6 @@
     // Play music when quiz starts
     music.play().catch(error => {
       console.log("Autoplay blocked:", error);
-    });
-  });
-
-const startBtn = document.getElementById("start-quiz-btn");
-
-  startBtn.addEventListener("click", () => {
     // Request fullscreen for the whole page
     if (document.documentElement.requestFullscreen) {
       document.documentElement.requestFullscreen();
@@ -651,6 +645,7 @@ const startBtn = document.getElementById("start-quiz-btn");
 </body>
 
 </html>
+
 
 
 
