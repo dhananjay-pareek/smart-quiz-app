@@ -82,10 +82,7 @@
   <source src="bg-music.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
-<video id="congrats-video" class="hidden" playsinline>
-  <source src="congrats.gif" type="video/gif">
-  Your browser does not support the video tag.
-</video>
+<img id="congrats-gif" src="congrats.gif" alt="Congratulations!" class="hidden" style="position:fixed;top:0;left:0;width:100vw;height:100vh;object-fit:cover;z-index:9999;pointer-events:none;" />
 
 
     <div id="app" class="max-w-2xl w-full">
@@ -450,6 +447,11 @@
             },
 
         completeQuiz() {
+    // Show the congrats GIF fullscreen
+    const congratsGif = document.getElementById('congrats-gif');
+    if (congratsGif) {
+        congratsGif.classList.remove('hidden');
+    }
     this.elements.finalScore.textContent = `${this.state.score} / ${this.state.totalInitialQuestions}`;
     this.switchView('quiz-complete-view');
 },
@@ -641,22 +643,32 @@
             }
         };
 
-        // Start the application
-        App.init();
+                // Start the application
+                App.init();
 
-        //custom added
-          const music = document.getElementById("bg-music");
-  const startBtn = document.getElementById("start-quiz-btn");
+            // Hide congrats GIF when leaving quiz complete view
+            function hideCongratsGif() {
+                const congratsGif = document.getElementById('congrats-gif');
+                if (congratsGif) {
+                congratsGif.classList.add('hidden');
+                }
+            }
 
-  startBtn.addEventListener("click", () => {
-    // Play music when quiz starts
-    music.play().catch(error => {
-      console.log("Autoplay blocked:", error);
-    });
-    
-    // Optionally: hide the button after click
-    // startBtn.style.display = "none";
-  });
+            // Listen for navigation away from quiz complete view
+            document.getElementById('play-again-btn').addEventListener('click', hideCongratsGif);
+            document.getElementById('back-to-menu-btn').addEventListener('click', hideCongratsGif);
+
+                //custom added
+                const music = document.getElementById("bg-music");
+                const startBtn = document.getElementById("start-quiz-btn");
+                startBtn.addEventListener("click", () => {
+                        // Play music when quiz starts
+                        music.play().catch(error => {
+                                console.log("Autoplay blocked:", error);
+                        });
+                        // Optionally: hide the button after click
+                        // startBtn.style.display = "none";
+                });
 </script>  
 </body>
 </html>
