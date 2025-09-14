@@ -65,6 +65,16 @@
         .hidden {
             display: none;
         }
+         #congrats-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 9999;
+    background: black;
+  }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
@@ -72,6 +82,11 @@
   <source src="bg-music.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+<video id="congrats-video" class="hidden" playsinline>
+  <source src="congrats.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
     <div id="app" class="max-w-2xl w-full">
         <!-- Main Menu View -->
@@ -428,8 +443,20 @@
             },
 
             completeQuiz() {
-                this.elements.finalScore.textContent = `${this.state.score} / ${this.state.totalInitialQuestions}`;
-                this.switchView('quiz-complete-view');
+                // Check if all answers are correct
+    if (this.state.score === this.state.totalInitialQuestions) {
+        const music = document.getElementById("bg-music");
+        const video = document.getElementById("congrats-video");
+
+        // Stop background music
+        music.pause();
+        music.currentTime = 0;
+
+        // Show and play video
+        video.classList.remove("hidden");
+
+        // Play video
+        video.play().catch(err => console.log("Video autoplay blocked:", err));
             },
 
             // QUESTION MANAGEMENT
@@ -641,6 +668,7 @@
 </body>
 
 </html>
+
 
 
 
