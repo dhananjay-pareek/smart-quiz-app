@@ -55,17 +55,14 @@ Question categories (Math, Science, GK)
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
 
----
 
 ##📜 License
 
 This project is licensed under the MIT License.
 
----
 
 ## ⭐ If you like this project, don’t forget to star the repo on GitHub!
 
 ---
 
-Would you like me to also **add a small preview GIF/image section** in the README (like a demo screenshot placeholder), so it looks even more attractive on GitHub?
 
