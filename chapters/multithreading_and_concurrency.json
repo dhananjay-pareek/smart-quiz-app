@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Multithreading and Concurrency",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary difference between concurrency and parallelism?",
+        "options": [
+          "There is no difference; they are the same concept.",
+          "Concurrency is when multiple tasks make progress over time; parallelism is when multiple tasks run at the exact same time.",
+          "Parallelism is a software concept; concurrency is a hardware concept.",
+          "Concurrency uses multiple processes; parallelism uses multiple threads."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A 'thread' is a lightweight process that shares the same memory space as its parent process.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'race condition'?",
+        "options": [
+          "When two threads are competing to run faster",
+          "A situation where the outcome of a program depends on the unpredictable timing of multiple threads accessing shared data",
+          "A method for synchronizing threads",
+          "When a thread is blocked indefinitely"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A section of code that must be accessed by only one thread at a time is called a:",
+        "options": [
+          "Deadlock",
+          "Race Condition",
+          "Critical Section",
+          "Semaphore"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A 'deadlock' occurs when a thread is doing busy work but not making any progress.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which synchronization primitive is like a key that only one thread can hold at a time to access a resource?",
+        "options": [
+          "Semaphore",
+          "Monitor",
+          "Mutex (or Lock)",
+          "Condition Variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main benefit of multithreading?",
+        "options": [
+          "It makes programs simpler to write and debug",
+          "It improves the responsiveness of applications and can increase performance on multi-core systems",
+          "It reduces the memory usage of a program",
+          "It guarantees that the program will run without errors"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A process is a completely independent program with its own memory space, while threads of a process share memory.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'semaphore' is a synchronization tool that:",
+        "options": [
+          "Can only be in a locked or unlocked state",
+          "Maintains a count and can be used to control access to a pool of resources",
+          "Is used to signal between threads about a certain condition",
+          "Is another name for a critical section"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An operation that is 'atomic' is one that:",
+        "options": [
+          "Can be interrupted by another thread",
+          "Is guaranteed to execute as a single, indivisible unit without interruption",
+          "Uses very little memory",
+          "Is extremely slow"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Context switching between threads is generally faster than context switching between processes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'starvation' in the context of concurrency?",
+        "options": [
+          "When a process uses too much memory",
+          "When two or more threads are blocked forever, waiting for each other",
+          "When a thread is perpetually denied necessary resources to proceed",
+          "When a thread exits prematurely"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A 'thread pool' is a collection of:",
+        "options": [
+          "Synchronization locks",
+          "Shared variables",
+          "Pre-created, idle threads that stand ready to be given work",
+          "Critical sections of code"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Multithreading is the only way to achieve concurrency.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does it mean for a function or class to be 'thread-safe'?",
+        "options": [
+          "It can only be used in a single-threaded program",
+          "It can be safely called from multiple threads simultaneously without causing data corruption or race conditions",
+          "It uses a global lock for all its operations",
+          "It runs faster when used with multiple threads"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A 'deadlock' is a situation where two or more threads are blocked, each waiting for a resource that the other holds.",
+        "options": [
+          "A livelock",
+          "A race condition",
+          "A deadlock",
+          "Starvation"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Using a mutex (lock) is a way to prevent race conditions.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A CPU-bound task is one that primarily performs calculations. It benefits most from:",
+        "options": [
+          "Concurrency on a single-core processor",
+          "Parallelism on a multi-core processor",
+          "Asynchronous I/O",
+          "A single-threaded environment"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a major challenge of multithreaded programming?",
+        "options": [
+          "It is too slow for modern applications",
+          "The increased complexity of managing shared state, synchronization, and potential for deadlocks",
+          "It uses less memory, which can be inefficient",
+          "It can only be done in low-level languages"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The Global Interpreter Lock (GIL) in CPython allows multiple threads to execute Python bytecode in parallel.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'condition variable' used for?",
+        "options": [
+          "To lock a critical section",
+          "To allow threads to wait for a certain condition to become true",
+          "To count available resources",
+          "To store the state of a thread"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An I/O-bound task, like reading a file or making a network request, benefits from concurrency because:",
+        "options": [
+          "It can perform calculations faster",
+          "The program can perform other tasks while waiting for the I/O operation to complete",
+          "It uses more CPU cores",
+          "It simplifies the code"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "All threads in a process share the same global variables.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'monitor' is a high-level synchronization construct that combines:",
+        "options": [
+          "A mutex and a semaphore",
+          "A mutex and condition variables",
+          "A thread pool and a queue",
+          "A critical section and a race condition"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'livelock'?",
+        "options": [
+          "Another name for a deadlock",
+          "When threads are actively running but are not making any progress on their tasks",
+          "When a thread is alive but not running",
+          "When a program has too many threads"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Each thread has its own private stack.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The act of temporarily stopping a thread so another can run is called:",
+        "options": [
+          "Termination",
+          "Context switching",
+          "Joining",
+          "Locking"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Why is it often a bad idea for one thread to abruptly terminate another?",
+        "options": [
+          "It is not possible to do so",
+          "It can leave shared resources in an inconsistent state",
+          "It uses too much CPU",
+          "It is slower than letting the thread finish"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The order in which threads are scheduled to run by the operating system is always predictable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does a thread's 'join' method typically do?",
+        "options": [
+          "It starts the execution of the thread",
+          "It joins the thread to a thread pool",
+          "It causes the calling thread to wait until the joined thread completes its execution",
+          "It combines two threads into one"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+]

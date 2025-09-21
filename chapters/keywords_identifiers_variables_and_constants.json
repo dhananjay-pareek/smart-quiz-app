@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Keywords, Identifiers, Variables, and Constants",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which of the following best defines a 'keyword'?",
+        "options": [
+          "A name created by the programmer for a variable",
+          "A word reserved by a programming language with a special meaning",
+          "A comment used to explain the code",
+          "A user-defined function name"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The value of a constant can be changed multiple times during program execution.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An 'identifier' is a name used to identify a:",
+        "options": [
+          "Specific line number in the code",
+          "Variable, function, class, or other user-defined item",
+          "Syntax error",
+          "Data type like integer or string"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is generally an INVALID identifier name in most programming languages?",
+        "options": [
+          "_userCount",
+          "user_count",
+          "UserCount",
+          "1stUserCount"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "In a case-sensitive language, 'total' and 'Total' are considered the same identifier.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'variable'?",
+        "options": [
+          "A fixed value that never changes",
+          "A named storage location whose value can be changed during execution",
+          "A reserved word in the language",
+          "A set of programming instructions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which keyword is commonly used to declare a constant in languages like JavaScript and C++?",
+        "options": [
+          "var",
+          "let",
+          "const",
+          "static"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Keywords can be used as identifier names.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The process of specifying a variable's name and type before using it is called:",
+        "options": [
+          "Initialization",
+          "Declaration",
+          "Assignment",
+          "Execution"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the term for assigning an initial value to a variable at the time it is declared?",
+        "options": [
+          "Initialization",
+          "Declaration",
+          "Instantiation",
+          "Compilation"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "A good practice is to use descriptive identifier names that reflect their purpose.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Why are constants useful in programming?",
+        "options": [
+          "They make the program run faster",
+          "They improve readability and prevent accidental changes to important values",
+          "They use less memory than variables",
+          "They are the only way to store numbers"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a keyword for creating a variable in many modern languages but often with a block-level scope?",
+        "options": [
+          "let",
+          "final",
+          "define",
+          "constant"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "Identifiers can contain special characters like '@', '#', or '$' anywhere in the name.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does it mean for a variable to be 'uninitialized'?",
+        "options": [
+          "It has been declared but not yet assigned a value",
+          "It has a value of zero",
+          "It cannot be used in the program",
+          "It is a constant"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The keyword 'final' in Java is used to declare a:",
+        "options": [
+          "Function that cannot be overridden",
+          "Class that cannot be extended",
+          "Variable whose value cannot be changed (a constant)",
+          "All of the above"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "The identifier 'if' is a valid name for a variable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The '=' symbol in most programming languages is used for:",
+        "options": [
+          "Checking for equality",
+          "Assigning a value to a variable",
+          "Declaring a new constant",
+          "Comparing two identifiers"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'magic number' in programming, which the use of constants helps to avoid?",
+        "options": [
+          "A number that is computationally difficult to generate",
+          "A number that appears in the code without any explanation of its meaning",
+          "A number that is part of a cryptographic algorithm",
+          "A variable that can hold any numerical type"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "An identifier can have an unlimited length in all programming languages.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following keywords is used to define a block of code that executes a function?",
+        "options": [
+          "variable",
+          "integer",
+          "return",
+          "function"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "A variable's 'data type' determines:",
+        "options": [
+          "Only the name of the variable",
+          "The kind of values it can hold and the operations that can be performed on it",
+          "How many times its value can change",
+          "Whether it is a keyword or an identifier"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "It is possible to declare a variable and initialize it in the same statement.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is a convention for naming multi-word identifiers, often used for constants?",
+        "options": [
+          "camelCase",
+          "PascalCase",
+          "snake_case",
+          "SCREAMING_SNAKE_CASE"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What happens when you try to assign a new value to a constant that has already been initialized?",
+        "options": [
+          "The program updates the constant with the new value",
+          "The program asks the user for confirmation",
+          "It results in a compile-time or runtime error",
+          "The program ignores the new assignment"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "All variables must be explicitly assigned a data type when declared.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The scope of a variable determines:",
+        "options": [
+          "Its maximum possible value",
+          "Where in the program the variable is accessible",
+          "Its data type",
+          "Whether it is a constant or not"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Pointers and References (Conceptual)",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What does a pointer variable store?",
+        "options": [
+          "A character",
+          "A floating-point number",
+          "A memory address",
+          "A true/false value"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A reference is an alias, or an alternative name, for an existing variable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the 'address-of' operator (e.g., `&` in C++)?",
+        "options": [
+          "To get the value stored in a variable",
+          "To get the memory address of a variable",
+          "To declare a new reference",
+          "To perform a bitwise AND operation"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The 'dereferencing' or 'indirection' operator (e.g., `*` in C++) is used to:",
+        "options": [
+          "Get the memory address of a pointer",
+          "Declare a new pointer",
+          "Access the value stored at the memory address held by a pointer",
+          "Assign a new address to a pointer"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A pointer, once declared, must be initialized to a valid memory address immediately.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a key difference between a pointer and a reference?",
+        "options": [
+          "Pointers can be null, while references generally cannot",
+          "Pointers store values, while references store addresses",
+          "References are more complex to use than pointers",
+          "References use the `*` symbol for declaration"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'null pointer'?",
+        "options": [
+          "A pointer that points to the first address in memory (address 0)",
+          "A pointer that has not been declared",
+          "A pointer that intentionally points to nothing, indicating its invalidity",
+          "A pointer that can only point to character types"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A reference must be initialized at the time of its declaration.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Passing arguments to a function by pointer or reference allows the function to:",
+        "options": [
+          "Only read the original variable's value",
+          "Create a copy of the original variable",
+          "Modify the original variable's value directly",
+          "Return multiple values more easily"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'dangling pointer'?",
+        "options": [
+          "Another name for a null pointer",
+          "A pointer that points to a memory location that has been deallocated or freed",
+          "A pointer that has not yet been initialized",
+          "A pointer that is only used inside loops"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Once a reference is initialized to refer to a variable, it can be 'reseated' to refer to a different variable later.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In the context of arrays, the name of the array often behaves like a:",
+        "options": [
+          "Reference to the last element",
+          "Pointer to the first element",
+          "Variable holding the size of the array",
+          "A copy of all the elements"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does `int *ptr;` declare?",
+        "options": [
+          "An integer variable named `*ptr`",
+          "A pointer named `ptr` that can hold the address of an integer",
+          "A reference to an integer",
+          "A constant integer"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Modifying a value through a reference changes the original variable's value.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Pointer arithmetic allows you to:",
+        "options": [
+          "Multiply two pointers together",
+          "Add or subtract integers to a pointer to move it to a nearby memory address",
+          "Divide a pointer's address by a number",
+          "Perform calculations on the values the pointers point to"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary use for pointers in the context of dynamic memory allocation?",
+        "options": [
+          "To calculate the amount of memory needed",
+          "To hold the memory address of the newly allocated block of memory on the heap",
+          "To automatically free the memory when it's no longer needed",
+          "To name the block of memory"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Dereferencing a null pointer is a safe operation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If `int x = 10; int &ref = x;`, what is the value of `ref`?",
+        "options": [
+          "The memory address of `x`",
+          "10",
+          "The value is undefined",
+          "A null value"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which concept allows you to build complex data structures like linked lists and trees?",
+        "options": [
+          "References",
+          "Loops",
+          "Pointers",
+          "Conditional Statements"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Pointers and references add a layer of indirection to data access.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In C++, which is generally considered safer and easier to use for aliasing variables?",
+        "options": [
+          "Pointers",
+          "References",
+          "Both are equally safe",
+          "Global variables"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'void pointer' (`void *`)?",
+        "options": [
+          "Another name for a null pointer",
+          "A pointer that is not allowed to be used",
+          "A generic pointer that can hold the address of any data type",
+          "A pointer that can only be used in `void` functions"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "When you assign one pointer to another, you are copying the memory address, not the value at that address.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Passing a large object to a function by value is inefficient. What is a better alternative?",
+        "options": [
+          "Passing it as a global variable",
+          "Breaking it into smaller pieces",
+          "Passing it by pointer or reference",
+          "Not passing it at all"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If `ptr` points to an integer, what does `*ptr = 20;` do?",
+        "options": [
+          "It changes the address stored in `ptr` to 20",
+          "It assigns the value 20 to the integer variable that `ptr` points to",
+          "It compares the value at `ptr` to 20",
+          "It is a syntax error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Pointers can be reassigned to point to different memory locations after they are initialized.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary risk associated with manual memory management using pointers?",
+        "options": [
+          "Improved program performance",
+          "Memory leaks and dangling pointers",
+          "Code that is too easy to read",
+          "Compiler errors"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A reference acts as a constant pointer that is automatically dereferenced.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

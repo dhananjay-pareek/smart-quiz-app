@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Encapsulation",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary goal of encapsulation in OOP?",
+        "options": [
+          "To allow one class to inherit from another",
+          "To bundle data and the methods that work on that data within one unit",
+          "To allow an object to take many forms",
+          "To create a sequence of steps to solve a problem"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Encapsulation involves exposing all of an object's internal data to the outside world.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The mechanism of hiding an object's internal data and restricting access to it is called:",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Data Hiding",
+          "Recursion"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which access modifier provides the most restrictive access to a class member?",
+        "options": [
+          "public",
+          "protected",
+          "private",
+          "default"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A public member of a class can be accessed from anywhere in the program.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What are 'getter' and 'setter' methods used for?",
+        "options": [
+          "To create and destroy objects",
+          "To provide controlled, public access to an object's private attributes",
+          "To inherit properties from another class",
+          "To perform mathematical calculations"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A method used to retrieve the value of a private attribute is called a(n):",
+        "options": [
+          "Setter or Mutator",
+          "Constructor",
+          "Getter or Accessor",
+          "Destructor"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "By making class attributes private, you prevent them from being changed in unexpected ways.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'setter' method is also known as a:",
+        "options": [
+          "Accessor",
+          "Mutator",
+          "Constructor",
+          "Query"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a key advantage of encapsulation?",
+        "options": [
+          "It makes code run faster",
+          "It increases the coupling between objects",
+          "It improves security and makes the code more maintainable and flexible",
+          "It allows for multiple inheritance"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Encapsulation allows you to change the internal implementation of a class without affecting the code that uses it.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The 'public interface' of a class consists of its:",
+        "options": [
+          "Private attributes",
+          "Private methods",
+          "Public methods and attributes",
+          "Constructors only"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which access modifier allows access only within the same class and its subclasses?",
+        "options": [
+          "public",
+          "private",
+          "final",
+          "protected"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A 'setter' method typically includes validation logic to ensure the new value is appropriate for the attribute.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Encapsulation is often compared to a:",
+        "options": [
+          "Family tree",
+          "Chameleon",
+          "Capsule or a black box",
+          "Recipe"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If a class attribute is declared `private`, how can it be accessed from outside the class?",
+        "options": [
+          "Directly, using dot notation",
+          "Through public getter and setter methods",
+          "It cannot be accessed in any way",
+          "Through a subclass"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Good encapsulation practice suggests making all class attributes public by default.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "How does encapsulation increase code flexibility?",
+        "options": [
+          "By making all data global",
+          "By allowing the internal workings of a class to be changed without breaking the external code that uses it",
+          "By locking the code so no changes can be made",
+          "By forcing all methods to be static"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The combination of data and methods into a single class unit is the ______ part of encapsulation.",
+        "options": [
+          "Data hiding",
+          "Bundling",
+          "Inheritance",
+          "Polymorphism"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A private method can be called directly from an object of the class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A 'read-only' attribute can be implemented by:",
+        "options": [
+          "Providing a setter method but no getter method",
+          "Providing a getter method but no setter method",
+          "Making the attribute public",
+          "Making the attribute protected"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The main idea of encapsulation is to protect an object's data from:",
+        "options": [
+          "Being used in the program",
+          "Accidental or unauthorized modification",
+          "Inheritance",
+          "Being copied"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The `private` keyword is an essential tool for achieving data hiding.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the typical return type for a setter method?",
+        "options": [
+          "The same type as the attribute it is setting",
+          "boolean",
+          "void (or nothing)",
+          "integer"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which OOP principle is most concerned with defining the boundaries of an object?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation",
+          "Recursion"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Encapsulation makes your code more difficult to test.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A 'write-only' attribute can be implemented by:",
+        "options": [
+          "Providing a setter method but no getter method",
+          "Providing a getter method but no setter method",
+          "Making the attribute public",
+          "Making the attribute protected"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the return type of a getter method for an attribute of type `String`?",
+        "options": [
+          "void",
+          "int",
+          "boolean",
+          "String"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+]

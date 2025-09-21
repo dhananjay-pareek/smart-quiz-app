@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Data Types",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which data type is most suitable for storing a person's age?",
+        "options": [
+          "float",
+          "boolean",
+          "integer",
+          "string"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A 'boolean' data type can only hold one of two values: True or False.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary difference between an 'integer' and a 'float'?",
+        "options": [
+          "Integers are for text, floats are for numbers.",
+          "Integers can only be positive, floats can be negative.",
+          "Integers are whole numbers, floats have a decimal point.",
+          "There is no difference."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The 'char' data type is typically used to store:",
+        "options": [
+          "A large block of text",
+          "A single character, symbol, or number",
+          "A whole number",
+          "A true or false value"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A 'string' is a sequence of characters.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In a statically-typed language, what happens if you try to assign a string value to a variable declared as an integer?",
+        "options": [
+          "The string is automatically converted to an integer.",
+          "The program will produce a compile-time error.",
+          "The variable's data type changes to string.",
+          "The program will run, but with potential for a runtime error."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which data type would be best for storing the value '3.14159'?",
+        "options": [
+          "integer",
+          "string",
+          "boolean",
+          "float"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "The value `5.0` would be considered an integer data type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'type casting'?",
+        "options": [
+          "The process of creating a new variable",
+          "An error that occurs when data types are mismatched",
+          "The process of converting a value from one data type to another",
+          "A method for storing data in a character array"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following values is a boolean?",
+        "options": [
+          "'true'",
+          "1",
+          "true",
+          "0.0"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "In dynamically-typed languages like Python, you do not need to explicitly declare a variable's data type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'null' or 'nil' value typically represents:",
+        "options": [
+          "The number zero",
+          "An empty string",
+          "The intentional absence of any value",
+          "A boolean false value"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Data types like `int`, `char`, and `float` are often referred to as:",
+        "options": [
+          "Reference types",
+          "Complex types",
+          "Primitive types",
+          "User-defined types"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "You can perform mathematical operations like multiplication on string data types.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If you convert a float like `9.81` to an integer, what is the most likely result?",
+        "options": [
+          "10",
+          "9.8",
+          "9",
+          "An error"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In many languages, string literals are enclosed in:",
+        "options": [
+          "Parentheses ()",
+          "Curly braces {}",
+          "Square brackets []",
+          "Double quotes \"\" or single quotes ''"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A `double` is a floating-point data type that typically has more precision than a `float`.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does the term 'overflow' mean in the context of data types?",
+        "options": [
+          "When a value is too large to be stored in the memory allocated for its data type",
+          "When a variable is used before it is declared",
+          "When a string is converted to a number",
+          "When a float is rounded down to an integer"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which data type is a 'composite' type, meaning it is made up of other types?",
+        "options": [
+          "integer",
+          "boolean",
+          "character",
+          "string"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "The memory size allocated for a specific data type (e.g., an `int`) is the same across all programming languages and systems.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An 'unsigned integer' (`uint`) is a data type that:",
+        "options": [
+          "Can only store negative numbers",
+          "Can only store non-negative numbers (0 and positive)",
+          "Cannot be used in calculations",
+          "Is another name for a float"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'literal'?",
+        "options": [
+          "A variable name",
+          "A fixed value written directly in the source code, like `101` or `\"Hello\"`",
+          "A keyword",
+          "A comment"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Implicit type conversion (coercion) is when a language automatically converts one data type to another.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following operations would likely result in a boolean value?",
+        "options": [
+          "5 + 10",
+          "\"Hello\" + \"World\"",
+          "15 > 10",
+          "12 / 4"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Reference types (like objects or arrays) store the actual value directly in the variable.",
+        "options": [
+          "They store a memory address where the value is located",
+          "They can only store primitive types",
+          "They are less flexible than primitive types",
+          "They are another name for constants"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "Concatenation is the process of joining strings together.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Why is choosing the correct data type for a variable important?",
+        "options": [
+          "It is not important in modern languages",
+          "It affects memory usage and the types of operations that can be performed",
+          "It only matters for the readability of the code",
+          "It determines the name of the variable"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The string \"123\" is numerically equal to the integer 123.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Memory Management (Stack and Heap)",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which memory area is used for static memory allocation and managing function calls?",
+        "options": [
+          "The Heap",
+          "The Stack",
+          "The Hard Drive",
+          "The Cache"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Memory allocation and deallocation on the stack is generally faster than on the heap.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which memory area is used for dynamic memory allocation, for objects whose size might not be known at compile time?",
+        "options": [
+          "The Stack",
+          "The Data Segment",
+          "The Heap",
+          "The Text Segment"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The stack operates on a ______ principle.",
+        "options": [
+          "FIFO (First-In, First-Out)",
+          "LIFO (Last-In, First-Out)",
+          "Random Access",
+          "Sequential Access"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A 'stack overflow' error occurs when the heap runs out of memory.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Local variables and function parameters are typically stored in which memory area?",
+        "options": [
+          "The Heap",
+          "The Stack",
+          "A global data segment",
+          "A file"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In languages with manual memory management like C++, what is a 'memory leak'?",
+        "options": [
+          "When the stack exceeds its size limit",
+          "When memory on the heap is allocated but never deallocated (freed)",
+          "When a variable is accessed outside of its scope",
+          "When a file cannot be opened"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The size of the stack is typically much larger than the size of the heap.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'stack frame' (or activation record)?",
+        "options": [
+          "A block of memory on the heap",
+          "A data structure containing a function's local variables, parameters, and return address, pushed onto the stack when the function is called",
+          "The total size of the stack",
+          "An error that occurs during function calls"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is an advantage of heap memory?",
+        "options": [
+          "Very fast allocation",
+          "Automatic cleanup of variables",
+          "Flexible size, allowing for large objects",
+          "No risk of memory leaks"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Memory on the stack is managed automatically by the compiler and operating system.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The process of automatically finding and freeing up unused memory on the heap is called:",
+        "options": [
+          "Manual deallocation",
+          "Stack unwinding",
+          "Garbage Collection",
+          "Memory mapping"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In C++, the `new` keyword allocates memory on the:",
+        "options": [
+          "Stack",
+          "Heap",
+          "Global data area",
+          "Read-only memory"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Variables stored on the stack have a lifetime that is tied to the scope of the function they are in.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Heap memory can become fragmented over time, which means:",
+        "options": [
+          "It becomes more organized",
+          "Small, non-contiguous free blocks are scattered throughout, making it hard to allocate a large block",
+          "It is automatically defragmented by the OS",
+          "It is no longer usable"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these languages relies on a garbage collector for heap management?",
+        "options": [
+          "C",
+          "C++",
+          "Java and Python",
+          "Assembly"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Objects created on the heap can continue to exist even after the function that created them has finished executing.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'stack overflow' is often caused by:",
+        "options": [
+          "Allocating a very large object on the heap",
+          "A memory leak",
+          "An excessively deep or infinite recursion",
+          "Forgetting to deallocate memory"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary risk of using heap memory in a language without garbage collection?",
+        "options": [
+          "Stack overflow errors",
+          "Memory leaks if the programmer forgets to free the memory",
+          "Slower function calls",
+          "The memory size is too small"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The stack grows and shrinks as functions are called and return.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A variable declared as `int my_num;` inside a function will be allocated on the:",
+        "options": [
+          "Heap",
+          "Stack",
+          "Either, depending on its value",
+          "It is not allocated memory"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In C++, the `delete` keyword is used to deallocate memory from the:",
+        "options": [
+          "Stack",
+          "Heap",
+          "Both stack and heap",
+          "Nowhere, it deletes files"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Pointers are often used to manage memory on the heap.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which statement is true about the stack?",
+        "options": [
+          "It has a flexible, dynamic size",
+          "Accessing its memory is slower than the heap",
+          "It stores data in a hierarchical manner",
+          "Its memory is managed by a strict LIFO order"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "Which statement is true about the heap?",
+        "options": [
+          "Memory is allocated and deallocated automatically when variables go out of scope",
+          "It is highly organized and not prone to fragmentation",
+          "It is used for data that needs a longer lifetime than a single function's execution",
+          "It has a small, fixed size"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Global and static variables are stored on the stack.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A 'dangling pointer' is a common problem related to:",
+        "options": [
+          "Stack memory management",
+          "Heap memory that has been deallocated while a pointer still points to it",
+          "Function recursion",
+          "Incorrect type casting"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which memory region has a more predictable access pattern?",
+        "options": [
+          "Heap",
+          "Stack",
+          "Both are equally predictable",
+          "Neither is predictable"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "In general, you use the stack for small, short-lived data and the heap for large, long-lived data.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

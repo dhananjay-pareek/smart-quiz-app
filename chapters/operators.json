@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Operators",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which operator is used to find the remainder of a division?",
+        "options": [
+          "/",
+          "*",
+          "%",
+          "^"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The '==' operator is used to assign a value to a variable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the result of the expression `10 + 5 * 2`?",
+        "options": [
+          "30",
+          "20",
+          "25",
+          "17"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `&&` operator is a:",
+        "options": [
+          "Arithmetic Operator",
+          "Relational Operator",
+          "Logical Operator",
+          "Assignment Operator"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The expression `x != y` evaluates to true if x is not equal to y.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which operator is used for addition?",
+        "options": [
+          "-",
+          "&",
+          "+",
+          "|"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What does the expression `x++` typically do?",
+        "options": [
+          "Adds 2 to x",
+          "Multiplies x by itself",
+          "Increments the value of x by 1",
+          "Divides x by 1"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The logical OR operator (`||`) returns true if at least one of its operands is true.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is an assignment operator?",
+        "options": [
+          "==",
+          ">=",
+          "=",
+          "!="
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In the expression `a > b`, the `>` is a:",
+        "options": [
+          "Logical Operator",
+          "Arithmetic Operator",
+          "Ternary Operator",
+          "Relational Operator"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "The logical NOT operator (`!`) inverts the boolean value of its operand.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The expression `x += 5` is shorthand for:",
+        "options": [
+          "x = x + 5",
+          "x = 5",
+          "x = x * 5",
+          "5 = x + 5"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the result of `true && false`?",
+        "options": [
+          "true",
+          "false",
+          "An error",
+          "1"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Operator precedence determines the order in which operators are evaluated in an expression.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which relational operator means 'less than or equal to'?",
+        "options": [
+          "<",
+          "=<",
+          "<>",
+          "<="
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What is the result of the expression `15 / 4` in integer division?",
+        "options": [
+          "3.75",
+          "4",
+          "3",
+          "An error"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The assignment operator (`=`) has higher precedence than arithmetic operators.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the value of `result` after this code? `int x = 10; boolean result = (x > 5) && (x < 15);`",
+        "options": [
+          "true",
+          "false",
+          "10",
+          "0"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The unary minus operator (`-`) is used to:",
+        "options": [
+          "Subtract two numbers",
+          "Negate the value of an expression",
+          "Decrement a variable",
+          "Find the absolute value"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The expression `(5 > 3) || (10 < 5)` will evaluate to false.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The decrement operator `--x` first decrements the value of x, and then returns the new value. This is called:",
+        "options": [
+          "Post-decrement",
+          "Pre-decrement",
+          "Anti-increment",
+          "De-increment"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which operator is typically used for string concatenation?",
+        "options": [
+          "&",
+          "%",
+          "+",
+          "#"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Parentheses `()` can be used to override the default operator precedence.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the value of `result`? `boolean a = true; boolean result = !a;`",
+        "options": [
+          "true",
+          "false",
+          "1",
+          "An error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The expression `x *= 2` is equivalent to:",
+        "options": [
+          "x = x * 2",
+          "x = x + 2",
+          "x = 2",
+          "x = x * x"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "The `/=` operator divides the left operand by the right operand and assigns the result to the left operand.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The ternary operator (e.g., `condition ? expr1 : expr2`) is a shorthand for which control structure?",
+        "options": [
+          "for loop",
+          "while loop",
+          "switch statement",
+          "if-else statement"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these operators usually has the highest precedence?",
+        "options": [
+          "Assignment (`=`)",
+          "Logical OR (`||`)",
+          "Relational (`>`)",
+          "Multiplication (`*`)"
+        ],
+        "answer": 3
+      },
+       {
+        "type": "tf",
+        "text": "The result of a relational operator (like `>`, `<`, `==`) is always a boolean value.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

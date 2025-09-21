@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Function Definition and Calling",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which part of the code specifies the function's name and its parameters?",
+        "options": [
+          "The function call",
+          "The function body",
+          "The function definition (or header)",
+          "The return statement"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A function is executed at the moment it is defined in the code.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does it mean to 'call' or 'invoke' a function?",
+        "options": [
+          "To write the code that makes up the function's logic",
+          "To delete the function from memory",
+          "To cause the function to execute",
+          "To declare the function's return type"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In the line `greet(\"Alice\");`, what is `greet`?",
+        "options": [
+          "The function definition",
+          "A parameter",
+          "The name of the function being called",
+          "A keyword"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A function must be called with the same number of arguments as it has parameters in its definition.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the 'function body'?",
+        "options": [
+          "The line of code that calls the function",
+          "The part of the definition that contains the executable statements",
+          "The function's name",
+          "The function's return value"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What symbols are typically used to enclose the arguments in a function call?",
+        "options": [
+          "Curly braces {}",
+          "Square brackets []",
+          "Angle brackets <>",
+          "Parentheses ()"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "The flow of program execution jumps to the function's body when the function is called.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which keyword is used to start a function definition in Python?",
+        "options": [
+          "function",
+          "def",
+          "fun",
+          "define"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "After a function completes its execution, where does the program's control return to?",
+        "options": [
+          "The beginning of the program",
+          "The end of the program",
+          "The point in the code immediately following the function call",
+          "The beginning of the function"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A function can be defined but never called in a program.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the most likely result of trying to call a function that has not been defined?",
+        "options": [
+          "The program will ask you to define it",
+          "The program will run without issues",
+          "A compile-time or runtime error will occur",
+          "The program will create a default function"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In the definition `function add(num1, num2)`, `num1` and `num2` are:",
+        "options": [
+          "Arguments",
+          "Return values",
+          "Parameters",
+          "Function calls"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Calling a function is also referred to as defining the function.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does it mean to pass an argument to a function?",
+        "options": [
+          "To provide an input value for the function's parameter when you call it",
+          "To get a return value from the function",
+          "To write the logic inside the function",
+          "To give the function a name"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a function call, assuming the function `calculate` is defined?",
+        "options": [
+          "def calculate(x, y);",
+          "function calculate() {}",
+          "result = calculate(10, 20);",
+          "return calculate;"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Parentheses `()` are required when calling a function, even if it has no parameters.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The first line of a function definition is often called the:",
+        "options": [
+          "Body",
+          "Call",
+          "Header or Signature",
+          "Argument list"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of defining a function?",
+        "options": [
+          "To immediately execute a block of code",
+          "To create a reusable block of code that can be executed later",
+          "To store a single value",
+          "To test for a boolean condition"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function can be called from within another function.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In many compiled languages, a function must be declared or defined before it can be:",
+        "options": [
+          "Deleted",
+          "Commented",
+          "Called",
+          "Copied"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The values passed in a function call are known as:",
+        "options": [
+          "Parameters",
+          "Arguments",
+          "Definitions",
+          "Headers"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A program must have at least one function definition.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a function definition?",
+        "options": [
+          "print(\"Hello\");",
+          "int result = sum(a, b);",
+          "void displayMessage() { /* code */ }",
+          "displayMessage();"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "To use a function, a programmer must know:",
+        "options": [
+          "How the function is implemented internally",
+          "The function's name and what arguments it expects",
+          "The date the function was written",
+          "The name of the original author"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function definition specifies 'what' the function does, while a function call specifies 'when' it does it.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is wrong with this function call? `myFunction[x, y];`",
+        "options": [
+          "It uses square brackets instead of parentheses",
+          "It has too many arguments",
+          "It has a semicolon at the end",
+          "Nothing is wrong"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

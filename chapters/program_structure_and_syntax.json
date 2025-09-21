@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Program Structure and Syntax",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is a 'keyword' in a programming language?",
+        "options": [
+          "A word the programmer invents to name a variable",
+          "A reserved word with a special meaning to the compiler/interpreter",
+          "A comment in the code",
+          "The name of the program file"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "In most programming languages, variable names are case-sensitive.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the typical purpose of semicolons (;) in languages like C++, Java, and C#?",
+        "options": [
+          "To mark the beginning of a code block",
+          "To indicate a comment",
+          "To terminate a statement",
+          "To separate parameters in a function call"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The part of a program where a variable can be accessed is known as its:",
+        "options": [
+          "Type",
+          "Scope",
+          "Syntax",
+          "Statement"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Whitespace (like spaces, tabs, and newlines) is always ignored by the compiler or interpreter.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary function of the 'main' method or function in many programming languages?",
+        "options": [
+          "To hold all the program's variables",
+          "To define the program's user interface",
+          "To serve as the entry point where program execution begins",
+          "To store reusable utility functions"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "How is a single-line comment typically denoted in many C-style languages?",
+        "options": [
+          "/* comment */",
+          "// comment",
+          "# comment",
+          "-- comment"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "An identifier is a name given to entities like variables, functions, and classes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What do curly braces `{}` typically define in languages like Java, C++, and JavaScript?",
+        "options": [
+          "A mathematical equation",
+          "A list of items",
+          "A string of text",
+          "A block of code or a scope"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "A 'statement' in programming is best described as:",
+        "options": [
+          "A value that can change",
+          "A complete instruction that performs some action",
+          "A piece of code that evaluates to a single value",
+          "A note for the programmer"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The name 'for' is a valid variable name in most languages.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, what is used to define the scope of a code block instead of curly braces?",
+        "options": [
+          "Parentheses ()",
+          "Square Brackets []",
+          "Indentation",
+          "The 'begin' and 'end' keywords"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "An 'expression' in programming is a piece of code that:",
+        "options": [
+          "Always terminates the program",
+          "Is ignored by the compiler",
+          "Produces or evaluates to a single value",
+          "Is a complete command to the computer"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Most programming languages allow identifiers to start with a number.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'syntax error'?",
+        "options": [
+          "An error in the program's logic",
+          "An error where the code violates the rules of the programming language",
+          "An error that occurs during program execution",
+          "An error caused by incorrect user input"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The purpose of comments in source code is to:",
+        "options": [
+          "Speed up the program execution",
+          "Be executed by the computer as instructions",
+          "Provide explanations and documentation for human readers",
+          "Reserve memory for variables"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "'myVariable' and 'myvariable' are considered the same identifier in a case-sensitive language.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does it mean to 'declare' a variable?",
+        "options": [
+          "Assign a value to it",
+          "Use it in a calculation",
+          "Specify its name and data type",
+          "Print it to the console"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the term for a set of rules that defines how a program must be written to be grammatically correct?",
+        "options": [
+          "Logic",
+          "Syntax",
+          "Scope",
+          "Semantics"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A multi-line comment in C-style languages typically starts with '/*' and ends with '*/'.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following would generally be an invalid variable name?",
+        "options": [
+          "user_age",
+          "userAge",
+          "2ndUser",
+          "_user"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'camel case' naming convention?",
+        "options": [
+          "writing_all_words_with_underscores",
+          "WritingTheFirstLetterOfEachWordInUppercase",
+          "writingallwordsinlowercase",
+          "writingTheFirstWordLowercaseAndSubsequentWordsUppercase"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "In programming, 'literals' are fixed values, like the number 5 or the string 'Hello'.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The structure of a program, including the way components are arranged, is known as its:",
+        "options": [
+          "Algorithm",
+          "Architecture",
+          "Syntax",
+          "Compiler"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the difference between an 'argument' and a 'parameter'?",
+        "options": [
+          "There is no difference",
+          "A parameter is the variable in the function definition; an argument is the value passed to it",
+          "An argument is the variable in the function definition; a parameter is the value passed to it",
+          "Arguments are for math functions, parameters are for text functions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "All programming languages require a 'main' function to start.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which symbol is commonly used for the assignment operator, which assigns a value to a variable?",
+        "options": [
+          "==",
+          "=",
+          ":=",
+          "->"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Code inside a function is generally considered to be in a local scope.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

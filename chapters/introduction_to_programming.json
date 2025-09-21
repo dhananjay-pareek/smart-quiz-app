@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Introduction to Programming",
+    "questions": [
+      {
+        "text": "What is the primary role of a computer program?",
+        "options": [
+          "To manage the computer's hardware components",
+          "To provide a set of instructions for the computer to execute a task",
+          "To design the computer's physical architecture",
+          "To connect the computer to the internet"
+        ],
+        "answer": 1,
+        "type": "mcq"
+      },
+      {
+        "text": "Which of the following is considered a high-level programming language?",
+        "options": [
+          "Assembly Language",
+          "Machine Code",
+          "Python",
+          "Binary"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "Machine language is the only language a computer can directly understand.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "What is the process of finding and fixing errors in a program called?",
+        "options": [
+          "Compiling",
+          "Executing",
+          "Debugging",
+          "Interpreting"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "An interpreter translates the entire program into machine code before execution.",
+        "options": ["True", "False"],
+        "answer": 1,
+        "type": "tf"
+      },
+      {
+        "text": "What does the term 'syntax' refer to in programming?",
+        "options": [
+          "The logical flow of the program",
+          "The set of rules that dictates the structure of the language",
+          "The performance of the program",
+          "The comments written in the code"
+        ],
+        "answer": 1,
+        "type": "mcq"
+      },
+      {
+        "text": "An algorithm is a step-by-step procedure for solving a specific problem.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "Which tool translates source code into an executable file all at once?",
+        "options": [
+          "Debugger",
+          "Interpreter",
+          "Text Editor",
+          "Compiler"
+        ],
+        "answer": 3,
+        "type": "mcq"
+      },
+      {
+        "text": "What is 'pseudocode'?",
+        "options": [
+          "Code that has errors and cannot run",
+          "A type of programming language for artificial intelligence",
+          "An informal, high-level description of the operating principle of a computer program",
+          "The binary representation of a program"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "A variable is a storage location paired with an associated symbolic name, which contains some known or unknown quantity of information.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "Which of the following is NOT a fundamental programming concept?",
+        "options": [
+          "Variables",
+          "Control Structures",
+          "Data Structures",
+          "Graphic Design"
+        ],
+        "answer": 3,
+        "type": "mcq"
+      },
+      {
+        "text": "What is the term for a named block of code that is designed to do one specific job?",
+        "options": [
+          "Variable",
+          "Loop",
+          "Function",
+          "Conditional Statement"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "Source code is typically written by a human programmer in a high-level language.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "What does an IDE (Integrated Development Environment) typically provide?",
+        "options": [
+          "Just a text editor",
+          "A compiler and a debugger only",
+          "A suite of tools like a source code editor, build automation tools, and a debugger",
+          "Hardware for running the program"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "The process of a program running is often called 'execution'.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "Which programming paradigm is based on the concept of 'objects', which can contain data and code?",
+        "options": [
+          "Procedural Programming",
+          "Functional Programming",
+          "Object-Oriented Programming",
+          "Logical Programming"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "Binary code consists of sequences of which two numbers?",
+        "options": [
+          "1 and 2",
+          "0 and 1",
+          "A and B",
+          "True and False"
+        ],
+        "answer": 1,
+        "type": "mcq"
+      },
+      {
+        "text": "A flowchart is a visual representation of a program's logic.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "What is the name for a software development life cycle model that is characterized by a linear, sequential approach?",
+        "options": [
+          "Agile",
+          "Spiral",
+          "Waterfall",
+          "Scrum"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "API stands for 'Application Programming Interface'.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "In programming, what is a 'library'?",
+        "options": [
+          "A collection of pre-written code that users can use to optimize tasks",
+          "A book about a specific programming language",
+          "A place where source code is stored physically",
+          "A user interface for a program"
+        ],
+        "answer": 0,
+        "type": "mcq"
+      },
+      {
+        "text": "The main purpose of version control systems (like Git) is to:",
+        "options": [
+          "Speed up the computer",
+          "Manage and track changes to source code over time",
+          "Automatically write code",
+          "Design databases"
+        ],
+        "answer": 1,
+        "type": "mcq"
+      },
+      {
+        "text": "Hardcoding values directly into your source code is generally considered a good practice.",
+        "options": ["True", "False"],
+        "answer": 1,
+        "type": "tf"
+      },
+      {
+        "text": "What is the scope of a variable?",
+        "options": [
+          "The data type of the variable",
+          "The name of the variable",
+          "The region of the code where the variable is accessible",
+          "The maximum value a variable can hold"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "A 'bug' is a flaw or error in a computer program that causes it to produce an incorrect or unexpected result.",
+         "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      },
+      {
+        "text": "Which of these is a popular 'backend' programming language?",
+        "options": [
+          "HTML",
+          "CSS",
+          "Node.js (JavaScript)",
+          "React"
+        ],
+        "answer": 2,
+        "type": "mcq"
+      },
+      {
+        "text": "The term 'frontend' in web development refers to the client-side, i.e., what the user sees and interacts with.",
+        "options": ["True", "False"],
+        "answer": 0,
+        "type": "tf"
+      }
+    ]
+  }
+]

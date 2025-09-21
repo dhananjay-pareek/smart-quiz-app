@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Classes and Objects",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "A class can be best described as a:",
+        "options": [
+          "Specific instance of an object",
+          "Function used for calculations",
+          "Blueprint or template for creating objects",
+          "Global variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "An object is a specific, concrete instance of a class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The variables defined inside a class are known as its:",
+        "options": [
+          "Methods",
+          "Constructors",
+          "Attributes, properties, or fields",
+          "Parameters"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The functions defined inside a class are known as its:",
+        "options": [
+          "Attributes",
+          "Methods",
+          "Objects",
+          "Constructors"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can create only one object from a single class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the process of creating an object from a class called?",
+        "options": [
+          "Inheritance",
+          "Instantiation",
+          "Declaration",
+          "Compilation"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'constructor'?",
+        "options": [
+          "A method that performs a calculation",
+          "A special method called when an object is created, used for initialization",
+          "A variable that holds the object's name",
+          "A method used to destroy an object"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A class's methods define the behavior of its objects.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In many languages, which keyword is used to create a new instance of a class?",
+        "options": [
+          "create",
+          "instance",
+          "object",
+          "new"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "An object's 'state' is determined by the values of its:",
+        "options": [
+          "Methods",
+          "Attributes",
+          "Constructor",
+          "Class name"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "All objects created from the same class will have the same set of attributes, but may have different values for those attributes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "How do you typically access an object's attributes or methods?",
+        "options": [
+          "Using arrow notation (e.g., myObject->method())",
+          "Using dot notation (e.g., myObject.method())",
+          "Using square brackets (e.g., myObject[method])",
+          "By calling the class directly (e.g., MyClass.method())"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If you have a `Car` class, which of the following would be an object of that class?",
+        "options": [
+          "Vehicle",
+          "Engine",
+          "myBlueFordFocus",
+          "Color"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A constructor must always have a return type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the `this` or `self` keyword inside a method?",
+        "options": [
+          "To refer to the class itself",
+          "To refer to the specific object instance that the method was called on",
+          "To call another method",
+          "To refer to a global variable"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following would be a suitable attribute for a `Person` class?",
+        "options": [
+          "walk()",
+          "talk()",
+          "age",
+          "think()"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A class is an abstract concept, while an object is a concrete entity.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following would be a suitable method for a `Dog` class?",
+        "options": [
+          "breed",
+          "color",
+          "bark()",
+          "age"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A class can be thought of as a user-defined:",
+        "options": [
+          "Data type",
+          "Loop",
+          "Variable",
+          "Condition"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "An object's methods can access and modify its own attributes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a constructor is not explicitly defined in a class, what usually happens?",
+        "options": [
+          "It results in a compile-time error",
+          "A default, parameter-less constructor is provided by the language",
+          "You cannot create objects of that class",
+          "The object is created without any attributes"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The relationship between a class and an object is best described as:",
+        "options": [
+          "Parent-to-Child",
+          "Blueprint-to-House",
+          "Method-to-Attribute",
+          "Whole-to-Part"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A class must have at least one method.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'destructor'?",
+        "options": [
+          "Another name for a constructor",
+          "A special method called when an object's lifetime ends, used for cleanup",
+          "A method that causes an error",
+          "A method that copies an object"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "To create a `Dog` object named `myDog` from the `Dog` class, the syntax would look something like:",
+        "options": [
+          "Dog.myDog();",
+          "class myDog = new Dog();",
+          "Dog myDog = new Dog();",
+          "object myDog = Dog;"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The state of an object can change over time as its methods are called.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The attributes of a class define its:",
+        "options": [
+          "Behavior",
+          "Structure and state",
+          "Name",
+          "Purpose"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary purpose of a class?",
+        "options": [
+          "To execute a sequence of commands",
+          "To model real-world entities or abstract concepts",
+          "To store a single piece of data",
+          "To control the flow of a program"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Once an object is created, you cannot create another object from the same class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

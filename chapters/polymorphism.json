@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Polymorphism",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What does the term 'Polymorphism' literally mean?",
+        "options": [
+          "Many classes",
+          "Many forms",
+          "Multiple inheritances",
+          "Hidden data"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Method Overloading is an example of runtime polymorphism.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a condition for Method Overloading?",
+        "options": [
+          "The methods must have the same name but different parameter lists.",
+          "The methods must have the same name and the same parameter list.",
+          "The methods must be in different classes.",
+          "The methods must have different return types."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Method Overriding is a feature of which OOP concept?",
+        "options": [
+          "Encapsulation",
+          "Abstraction",
+          "Inheritance",
+          "Composition"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Runtime polymorphism is achieved through virtual functions and dynamic dispatch.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The resolution of which method to call for overloading happens at:",
+        "options": [
+          "Runtime",
+          "Compile-time",
+          "Link-time",
+          "Execution-time"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary requirement for Method Overriding?",
+        "options": [
+          "The method must be private.",
+          "The class must be final.",
+          "The subclass method must have the same name and parameter list as the superclass method.",
+          "The methods must have different names."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "You can override a method by changing only its return type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Consider a base class `Animal` with a method `makeSound()`. A subclass `Dog` also has a `makeSound()` method. This is an example of:",
+        "options": [
+          "Method Overloading",
+          "Method Overriding",
+          "A constructor",
+          "A syntax error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which type of polymorphism is also known as 'static binding' or 'early binding'?",
+        "options": [
+          "Runtime Polymorphism",
+          "Compile-time Polymorphism",
+          "Dynamic Polymorphism",
+          "Pure Polymorphism"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Method Overloading can be performed within a single class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a `Shape` reference variable holds a `Circle` object, and both have a `draw()` method, which `draw()` method is called?",
+        "options": [
+          "The `Shape` class's method",
+          "The `Circle` class's method",
+          "Both are called",
+          "It results in a compile error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The ability of a single function or operator to work on different data types is an example of:",
+        "options": [
+          "Overriding",
+          "Overloading",
+          "Inheritance",
+          "Encapsulation"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Private methods of a superclass can be overridden by a subclass.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which type of polymorphism is also known as 'dynamic binding' or 'late binding'?",
+        "options": [
+          "Compile-time Polymorphism",
+          "Static Polymorphism",
+          "Runtime Polymorphism",
+          "Ad-hoc Polymorphism"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Having `add(int a, int b)` and `add(int a, int b, int c)` in the same class is an example of:",
+        "options": [
+          "Method Overriding",
+          "Recursion",
+          "Method Overloading",
+          "Inheritance"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The `@Override` annotation in Java is mandatory for overriding a method.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The decision of which overridden method to call is made based on the:",
+        "options": [
+          "Type of the reference variable",
+          "Type of the actual object being referred to",
+          "Number of parameters",
+          "Return type of the method"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main advantage of runtime polymorphism?",
+        "options": [
+          "It makes the code run faster",
+          "It allows for writing flexible and extensible code where new classes can be added without changing the existing code",
+          "It reduces the compile time of the program",
+          "It simplifies the syntax of method calls"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Constructors can be overridden.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is NOT a valid way to overload a method `myMethod(int x)`?",
+        "options": [
+          "`myMethod(int x, int y)`",
+          "`myMethod(double x)`",
+          "`double myMethod(int x)`",
+          "`myMethod(String s)`"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In C++, which keyword is used on a base class method to indicate that it can be overridden by subclasses?",
+        "options": [
+          "override",
+          "static",
+          "virtual",
+          "dynamic"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Static methods can be overridden.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Operator overloading, a feature in languages like C++, is a form of:",
+        "options": [
+          "Runtime Polymorphism",
+          "Compile-time Polymorphism",
+          "Inheritance",
+          "Abstraction"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The compiler determines which overloaded method to call based on the:",
+        "options": [
+          "Method's name only",
+          "Number and type of arguments in the method call",
+          "Method's return type",
+          "Access modifier of the method"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A subclass can have a method with the same name as a superclass method but a different signature. This is overriding.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The main purpose of method overriding is to:",
+        "options": [
+          "Provide a completely new functionality in the subclass",
+          "Provide a specific implementation of a method that is already defined in its superclass",
+          "Hide the superclass method from being called",
+          "Change the return type of the superclass method"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Final methods can be overridden.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

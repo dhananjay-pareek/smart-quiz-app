@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Conditional Statements",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which statement is used to execute code only if a specified condition is true?",
+        "options": [
+          "for",
+          "while",
+          "if",
+          "switch"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "An `else` statement must always be paired with a preceding `if` statement.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The `switch-case` statement is most useful when:",
+        "options": [
+          "You need to repeat a block of code",
+          "You are comparing a single variable against a list of discrete values",
+          "You are checking a condition that evaluates to true or false",
+          "You need to handle program errors"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the `else if` (or `elif`) clause?",
+        "options": [
+          "To provide a default block of code to run",
+          "To end the entire conditional block",
+          "To check a new condition if all prior `if` and `else if` conditions were false",
+          "To combine two `if` statements into one"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The condition inside an `if` statement must evaluate to a boolean value (true or false).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does the `break` statement do inside a `switch-case` block?",
+        "options": [
+          "It skips the current `case` and checks the next one",
+          "It exits the `switch` block and continues execution after it",
+          "It causes the program to terminate",
+          "It indicates the end of the `switch` statement's definition"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What happens if you omit the `break` statement in a `case` of a switch block?",
+        "options": [
+          "A syntax error will occur",
+          "Execution will 'fall through' to the next `case` block",
+          "The `switch` statement will terminate immediately",
+          "Only the `default` case will be executed"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A ternary operator (`? :`) is a compact, one-line version of a `for` loop.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the `default` case in a `switch` statement?",
+        "options": [
+          "It is a mandatory first case",
+          "It is a variable that holds the switch's value",
+          "It is a block of code that runs if no other `case` matches",
+          "It is used to declare the switch variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Placing one `if` statement inside another `if` statement is an example of:",
+        "options": [
+          "Looping",
+          "Recursion",
+          "Nesting",
+          "Overloading"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "In most languages, using a single equals sign (`=`) in an `if` condition is a common error that assigns a value instead of comparing for equality.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Consider `if (x > 10) { ... } else { ... }`. When is the `else` block executed?",
+        "options": [
+          "When x is greater than 10",
+          "When x is equal to 10",
+          "When x is less than 10",
+          "When x is less than or equal to 10"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "Which operator is the correct one for checking if two values are equal in a conditional statement?",
+        "options": [
+          "=",
+          "==",
+          ":=",
+          "<>"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can have multiple `else` blocks for a single `if` statement.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The expression `(age >= 18) ? \"Adult\" : \"Minor\"` is an example of:",
+        "options": [
+          "A `switch` statement",
+          "A `while` loop",
+          "A ternary operator",
+          "A function call"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In an `if-else if-else` chain, how many blocks of code can be executed at most?",
+        "options": [
+          "All of them",
+          "Zero",
+          "Only one",
+          "It depends on the conditions"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A `switch` statement can evaluate conditions based on floating-point numbers in all languages.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these logical operators would you use to check if `x` is greater than 5 AND `y` is less than 10?",
+        "options": [
+          "|| (OR)",
+          "&& (AND)",
+          "! (NOT)",
+          "| (Bitwise OR)"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary advantage of using a `switch` statement over a long `if-else if` chain?",
+        "options": [
+          "It can handle more complex conditions",
+          "It is always faster",
+          "It can improve code readability when checking a single variable against many values",
+          "It uses less memory"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The block of code associated with a conditional statement is often defined by curly braces `{}` or indentation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A conditional statement allows a program to:",
+        "options": [
+          "Repeat a task multiple times",
+          "Store a collection of data",
+          "Make decisions and execute different code paths",
+          "Get input from a user"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If `x = 10`, what is the output of `if (x > 10) { print(\"A\"); } else { print(\"B\"); }`?",
+        "options": [
+          "A",
+          "B",
+          "AB",
+          "No output"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "It is possible to write an `if` statement without an `else` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which statement correctly checks if a variable `name` is NOT equal to the string \"Admin\"?",
+        "options": [
+          "if (name <> \"Admin\")",
+          "if (name =! \"Admin\")",
+          "if (name != \"Admin\")",
+          "if (name NOT \"Admin\")"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In a `switch` statement, the value in each `case` must be a:",
+        "options": [
+          "Variable",
+          "Constant expression",
+          "Function call",
+          "Boolean condition"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The `else` statement is executed when the condition in the `if` statement is `true`.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which logical operator would you use to check if `x` is less than 0 OR `x` is greater than 100?",
+        "options": [
+          "&& (AND)",
+          "! (NOT)",
+          "|| (OR)",
+          "& (Bitwise AND)"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The order of `if` and `else if` statements can affect the program's logic and output.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

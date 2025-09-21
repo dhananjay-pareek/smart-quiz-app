@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Object-Oriented Concepts Overview",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which of the following is NOT one of the four main pillars of Object-Oriented Programming (OOP)?",
+        "options": [
+          "Inheritance",
+          "Encapsulation",
+          "Recursion",
+          "Polymorphism"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "In OOP, an object is an instance of a class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'class' in the context of OOP?",
+        "options": [
+          "A running program",
+          "A blueprint or template for creating objects",
+          "A function that belongs to an object",
+          "A variable that holds data"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The bundling of data (attributes) and the methods that operate on that data into a single unit is known as:",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Abstraction",
+          "Encapsulation"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "Abstraction involves showing all the complex details of how an object works.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which OOP concept allows a class to inherit properties and methods from another class?",
+        "options": [
+          "Encapsulation",
+          "Polymorphism",
+          "Inheritance",
+          "Abstraction"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Polymorphism allows an object to take on many forms. A common example of this is:",
+        "options": [
+          "Method Overriding",
+          "Data Hiding",
+          "Creating a class",
+          "Using private variables"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "An object's properties are also known as its attributes or fields.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Hiding the internal state of an object and requiring all interaction to be done through an object's methods is called:",
+        "options": [
+          "Inheritance",
+          "Data Hiding (part of Encapsulation)",
+          "Polymorphism",
+          "Method Overloading"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The 'is-a' relationship is associated with which OOP concept?",
+        "options": [
+          "Encapsulation",
+          "Abstraction",
+          "Polymorphism",
+          "Inheritance"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A superclass (or parent class) inherits features from a subclass (or child class).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'constructor'?",
+        "options": [
+          "A method that destroys an object",
+          "A special method for creating and initializing an object",
+          "A regular method that returns a value",
+          "A variable that holds the class name"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The ability to define a method with the same name but different parameters within the same class is called:",
+        "options": [
+          "Method Overriding",
+          "Method Overloading",
+          "Inheritance",
+          "Abstraction"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The main idea of Abstraction is to handle complexity by hiding unnecessary details from the user.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a `Car` class and a `Truck` class both inherit from a `Vehicle` class, what is the `Vehicle` class?",
+        "options": [
+          "The Subclass",
+          "The Child Class",
+          "The Superclass",
+          "The Object"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "An object's behaviors are defined by its:",
+        "options": [
+          "Attributes",
+          "Methods",
+          "Class name",
+          "Constructor"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Procedural programming is organized around objects rather than actions and logic.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which pillar of OOP is demonstrated by a remote control, which allows you to interact with a TV without needing to know how its internal circuits work?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Abstraction",
+          "Encapsulation"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Defining a method in a subclass that has the same name as a method in its superclass is called:",
+        "options": [
+          "Method Overloading",
+          "Method Overriding",
+          "Construction",
+          "Abstraction"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Encapsulation helps in achieving a more secure and robust system.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The 'has-a' relationship, where an object contains another object, is known as:",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Composition",
+          "Abstraction"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In OOP, 'state' refers to an object's:",
+        "options": [
+          "Methods",
+          "Class",
+          "Data or Attributes",
+          "Name"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A single class can be used to create multiple objects.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the process of creating an object from a class called?",
+        "options": [
+          "Instantiation",
+          "Inheritance",
+          "Compilation",
+          "Declaration"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which concept allows you to write code that can work with objects of multiple types, as long as they share a common superclass?",
+        "options": [
+          "Encapsulation",
+          "Polymorphism",
+          "Data Hiding",
+          "Construction"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Java, C++, Python, and C# are all examples of languages that support object-oriented programming.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Public, Private, and Protected are keywords related to which concept?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation (Access Modifiers)",
+          "Abstraction"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A 'message' in OOP refers to:",
+        "options": [
+          "A comment in the code",
+          "A call to an object's method",
+          "An error notification",
+          "A string variable"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The primary goal of OOP is to manage the complexity of large software systems.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

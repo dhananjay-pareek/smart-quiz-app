@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Input and Output",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is 'Standard Input' (stdin)?",
+        "options": [
+          "The default source for a program to receive data, typically the keyboard",
+          "The screen where a program displays its output",
+          "A file from which a program reads data",
+          "The channel for displaying error messages"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "'Standard Output' (stdout) is the default destination for a program's normal output.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In C, which function is commonly used to read formatted input from stdin?",
+        "options": [
+          "printf()",
+          "cout()",
+          "scanf()",
+          "input()"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the `\n` character in an output string?",
+        "options": [
+          "To insert a tab space",
+          "To represent a null character",
+          "To move the cursor to the beginning of the next line",
+          "To delete the previous character"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The primary purpose of 'Standard Error' (stderr) is to separate error messages from the main program output.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, which function is used to get input from the user via the console?",
+        "options": [
+          "get()",
+          "read()",
+          "cin()",
+          "input()"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What are command-line arguments?",
+        "options": [
+          "Arguments passed to a function inside the code",
+          "Values passed to a program when it is executed from the command line",
+          "User input received while the program is running",
+          "Error codes returned by the program"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Output redirection (e.g., `program > output.txt`) changes the destination of stdout from the screen to a file.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In C++, `cout` is an object used for:",
+        "options": [
+          "Standard input",
+          "Standard output",
+          "Standard error",
+          "File input"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'stream' in the context of I/O?",
+        "options": [
+          "A variable that holds a single character",
+          "A sequence of data that flows from a source to a destination",
+          "A special type of function for printing text",
+          "A hardware port for connecting devices"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "File I/O involves reading from and writing to files on a storage device.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In C's `printf`, what does the format specifier `%d` represent?",
+        "options": [
+          "A double-precision float",
+          "A string of characters",
+          "A decimal integer",
+          "A single character"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "By default, the `input()` function in Python 3 treats all user input as what data type?",
+        "options": [
+          "Integer",
+          "Float",
+          "Boolean",
+          "String"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "Buffering is a technique where I/O data is temporarily stored in a buffer to improve efficiency.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the first step you must typically take before you can write data to a file?",
+        "options": [
+          "Close the file",
+          "Read from the file",
+          "Open the file in write or append mode",
+          "Delete the file"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is NOT a standard I/O stream?",
+        "options": [
+          "stdin",
+          "stdout",
+          "stderr",
+          "stdtmp"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "Formatted output allows you to control the appearance of the data being displayed.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In Java, which class is commonly used for console input?",
+        "options": [
+          "System.out",
+          "ConsoleReader",
+          "Scanner",
+          "Input"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The 'end-of-file' (EOF) marker indicates:",
+        "options": [
+          "An error occurred while reading the file",
+          "The file is empty",
+          "That there is no more data to be read from an input source",
+          "The file has been successfully closed"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "It is considered good practice to always close a file after you are finished working with it.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In C++, the `>>` operator when used with `cin` is known as the:",
+        "options": [
+          "Insertion operator",
+          "Extraction operator",
+          "Bitwise shift operator",
+          "Redirection operator"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does 'flushing the buffer' mean?",
+        "options": [
+          "Clearing all data from the buffer",
+          "Copying the buffer's contents to another variable",
+          "Forcing all data held in the buffer to be written to its destination",
+          "Deleting the buffer from memory"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Reading from the keyboard is a form of output.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In C's `printf`, what is the purpose of the `%s` format specifier?",
+        "options": [
+          "To print a single character",
+          "To print a floating-point number",
+          "To print a string of characters",
+          "To print the memory address of a variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If you open a file in 'append' mode, where will new data be written?",
+        "options": [
+          "At the beginning of the file, overwriting existing content",
+          "At the end of the existing content",
+          "In the middle of the file",
+          "To a new, separate file"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can use `console.log()` in JavaScript to print output to the web console.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the most likely outcome of trying to read from a file that doesn't exist?",
+        "options": [
+          "The program will create the file automatically",
+          "The program will wait for the user to create the file",
+          "A runtime error will occur",
+          "The program will read random data from memory"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The process of converting data from a program's internal representation to a sequence of bytes for output is called serialization or marshalling.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

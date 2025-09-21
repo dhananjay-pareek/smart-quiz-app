@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Try, Catch, Finally",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which block is used to enclose code that might generate an exception?",
+        "options": [
+          "catch",
+          "finally",
+          "try",
+          "throw"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The code inside a `catch` block is executed only if an exception occurs in the corresponding `try` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The `finally` block is executed:",
+        "options": [
+          "Only when an exception occurs",
+          "Only when no exception occurs",
+          "Always, regardless of whether an exception occurred or not",
+          "Only if the `catch` block is not executed"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary purpose of the `catch` block?",
+        "options": [
+          "To define the code that might cause an error",
+          "To execute cleanup code",
+          "To define the handler for an exception",
+          "To create a new exception"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A `try` block can be used without any `catch` or `finally` blocks.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If no exception is thrown in the `try` block, what is the execution flow?",
+        "options": [
+          "try -> catch -> finally",
+          "try -> finally",
+          "try -> catch",
+          "Only the try block"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If an exception is thrown in the `try` block and is caught by a `catch` block, what is the execution flow?",
+        "options": [
+          "try -> finally",
+          "try -> catch -> finally",
+          "try -> catch",
+          "Only the catch block"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "It is possible to have multiple `catch` blocks for a single `try` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "When using multiple `catch` blocks, the order should be:",
+        "options": [
+          "From most general exception type to most specific",
+          "From most specific exception type to most general",
+          "The order does not matter",
+          "Alphabetical order"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the most common use for a `finally` block?",
+        "options": [
+          "Logging error messages",
+          "Displaying a success message to the user",
+          "Resource cleanup (e.g., closing files or database connections)",
+          "Re-throwing the exception"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The `finally` block will execute even if there is a `return` statement in the `try` or `catch` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, what is the keyword equivalent of the `catch` block?",
+        "options": [
+          "catch",
+          "handle",
+          "except",
+          "error"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If an exception occurs in the `try` block and there is no matching `catch` block, what happens?",
+        "options": [
+          "The program continues as if nothing happened",
+          "The `finally` block is still executed, and then the program terminates or the exception propagates",
+          "The `finally` block is skipped",
+          "The compiler shows an error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A `try` block must be followed by at least one `catch` or one `finally` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which block is optional in a try-catch-finally structure?",
+        "options": [
+          "The `try` block",
+          "Both the `catch` and `finally` blocks are optional (but at least one must be present)",
+          "Neither is optional",
+          "The `catch` block is optional only if `finally` is present"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What happens to the code in the `try` block after an exception is thrown?",
+        "options": [
+          "The rest of the `try` block is executed, and then the `catch` block runs",
+          "Execution immediately jumps to the appropriate `catch` block; the rest of the `try` block is skipped",
+          "The `try` block is executed again",
+          "The program terminates immediately"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can have a `finally` block without a `catch` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The object caught by a `catch` block typically contains:",
+        "options": [
+          "Information about the error that occurred",
+          "The correct value that the code should have produced",
+          "A reference to the `finally` block",
+          "The entire program's source code"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of catching a specific exception type like `FileNotFoundException`?",
+        "options": [
+          "To handle all possible errors in the same way",
+          "To provide specific, tailored handling for that particular error",
+          "To make the code more complex",
+          "To guarantee that a file is always found"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Code within a `finally` block can also throw an exception.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If the `try` block is empty, what will happen?",
+        "options": [
+          "A compile-time error will occur",
+          "A runtime error will occur",
+          "The code will run, and neither the `catch` nor `finally` blocks will be triggered by an exception from `try`",
+          "The `catch` block will execute automatically"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If a `catch` block re-throws an exception, where is that exception handled?",
+        "options": [
+          "By the same `catch` block again",
+          "By a subsequent `catch` block in the same structure or an outer `try-catch` block",
+          "By the `finally` block",
+          "It can't be handled"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The `try-catch` mechanism is a form of conditional logic.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The `try-finally` structure (without a `catch`) is useful when:",
+        "options": [
+          "You want to handle an error and continue execution",
+          "You want to perform cleanup actions but not handle the exception itself",
+          "You want to prevent any exceptions from being thrown",
+          "This structure is not valid"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main advantage of using `try-catch-finally` over simple `if-else` checks for errors?",
+        "options": [
+          "It is faster",
+          "It separates the error-handling logic from the normal program flow, improving readability",
+          "It can handle syntax errors",
+          "It uses less memory"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Placing a generic `catch(Exception)` before a specific `catch(FileNotFoundException)` is a good practice.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If an exception is thrown, which block receives the exception object as an argument?",
+        "options": [
+          "try",
+          "catch",
+          "finally",
+          "The calling function"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The primary goal of a `try` block is to 'try' to run code, and the goal of a `catch` block is to 'catch' any problems that arise.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

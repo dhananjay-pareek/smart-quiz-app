@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Looping Constructs",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which type of loop is best when you know in advance how many times you want to repeat the code?",
+        "options": [
+          "while",
+          "do-while",
+          "for",
+          "if-else"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A `while` loop checks its condition *before* executing the loop body.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which loop is guaranteed to execute its body at least once?",
+        "options": [
+          "for",
+          "while",
+          "do-while",
+          "All of the above"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'infinite loop'?",
+        "options": [
+          "A loop that runs exactly one time",
+          "A loop whose condition is never met, causing it to run forever",
+          "A loop that contains an error",
+          "A loop used for iterating over arrays"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The `continue` statement will terminate the entire loop immediately.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In a `for` loop `for (int i = 0; i < 5; i++)`, what is the purpose of `i++`?",
+        "options": [
+          "Initialization",
+          "Condition",
+          "Loop Body",
+          "Update/Increment"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What does the `break` statement do when used inside a loop?",
+        "options": [
+          "Skips the current iteration and goes to the next one",
+          "Exits the loop immediately and continues execution at the next statement",
+          "Restarts the loop from the beginning",
+          "Causes a program error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A loop control variable is a variable that determines whether the loop will continue to execute.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If the condition of a `while` loop is initially false, how many times will its body execute?",
+        "options": [
+          "At least once",
+          "Zero times",
+          "Infinitely",
+          "Exactly once"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Placing one loop inside of another is called:",
+        "options": [
+          "Recursion",
+          "Nesting",
+          "Concatenation",
+          "Inheritance"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The `for-each` or enhanced `for` loop is primarily used for iterating over the elements of a collection, like an array or list.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which part of a `for` loop is executed only a single time?",
+        "options": [
+          "The condition check",
+          "The update statement",
+          "The initialization statement",
+          "The loop body"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Forgetting to update the loop control variable in a `while` loop will likely result in:",
+        "options": [
+          "A compile-time error",
+          "The loop never executing",
+          "An infinite loop",
+          "The program running faster"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A `do-while` loop is a 'post-test' loop, meaning it checks its condition *after* the loop body has executed.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "How many times will this loop run? `for (int i = 1; i <= 5; i++)`",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Infinitely"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `continue` statement causes execution to:",
+        "options": [
+          "Jump to the end of the program",
+          "Skip the remaining code in the current iteration and start the next iteration",
+          "Exit the loop",
+          "Pause the loop indefinitely"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "It is impossible to write a `while` loop that accomplishes the same task as a `for` loop.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In a nested loop, the inner loop completes its full cycle for every single iteration of the outer loop.",
+        "options": [
+          "The outer loop completes first",
+          "They run in parallel",
+          "The inner loop completes all its iterations for each iteration of the outer loop",
+          "The outer loop only runs once"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which loop is also known as a 'pre-test' loop?",
+        "options": [
+          "do-while",
+          "for-each",
+          "while",
+          "if-else"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The initialization, condition, and update parts of a `for` loop are all optional.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a `break` statement is executed in the inner loop of a nested loop structure, what happens?",
+        "options": [
+          "Both the inner and outer loops are terminated",
+          "Only the inner loop is terminated",
+          "Only the outer loop is terminated",
+          "The entire program stops"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary use case for a `do-while` loop?",
+        "options": [
+          "Situations where the loop may not need to run at all",
+          "Situations where you need to get input from a user and validate it at least once",
+          "Situations where the number of iterations is fixed and known",
+          "Situations that require iterating over an array"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Using a `break` statement outside of a loop or switch statement is a valid operation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "How many times will `Hello` be printed? `for(int i = 5; i < 5; i++) { print(\"Hello\"); }`",
+        "options": [
+          "5 times",
+          "1 time",
+          "0 times",
+          "Infinitely"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The process of a loop executing is often called:",
+        "options": [
+          "Iteration",
+          "Selection",
+          "Declaration",
+          "Negation"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "A `while(true)` loop is an example of an intentional infinite loop, which must have an internal `break` condition to exit.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which part of this loop contains an error? `for(int i = 0, i < 10, i++) { ... }`",
+        "options": [
+          "Initialization",
+          "Condition",
+          "Update",
+          "Separators (commas instead of semicolons)"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "The condition of a loop must evaluate to a value of which data type?",
+        "options": [
+          "Integer",
+          "String",
+          "Float",
+          "Boolean"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "It's a common practice to use `i`, `j`, and `k` as loop control variables, especially in nested loops.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

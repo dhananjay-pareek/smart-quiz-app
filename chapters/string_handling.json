@@ -1,0 +1,286 @@
+[
+  {
+    "name": "String Handling",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is a string in programming?",
+        "options": [
+          "A number with a decimal point",
+          "A sequence of characters",
+          "A true or false value",
+          "A collection of integers"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The process of joining two strings together is called 'concatenation'.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In many languages, which operator is used for string concatenation?",
+        "options": [
+          "- (minus)",
+          "* (asterisk)",
+          "& (ampersand)",
+          "+ (plus)"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What does the 'length' of a string represent?",
+        "options": [
+          "The amount of memory it uses",
+          "The number of characters in the string",
+          "The index of the last character",
+          "The number of words in the string"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "In a string, the first character is at index 1.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does the concept of 'immutability' mean for strings in languages like Java and Python?",
+        "options": [
+          "The string can be changed in place after it is created",
+          "The string cannot be changed in place; any modification creates a new string",
+          "The string can only contain numbers",
+          "The string's length is always fixed at 10 characters"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of an escape character like `\\n`?",
+        "options": [
+          "To represent a literal backslash",
+          "To represent a special character, like a newline, that cannot be typed directly",
+          "To comment out a part of the string",
+          "To delete the character before it"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The `toUpperCase()` method converts all characters in a string to uppercase.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'substring'?",
+        "options": [
+          "A character that is not a letter or number",
+          "A smaller string extracted from within a larger string",
+          "A string that contains only numbers",
+          "The total length of a string"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which function is commonly used to remove whitespace from the beginning and end of a string?",
+        "options": [
+          "clean()",
+          "removeSpace()",
+          "trim()",
+          "cut()"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Comparing strings with `==` always checks for alphabetical order.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `split()` method is typically used to:",
+        "options": [
+          "Divide a string into an array of substrings based on a delimiter",
+          "Join multiple strings into one",
+          "Get a single character from the string",
+          "Reverse the string"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the index of the character 'c' in the string \"abcde\"?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A string can be thought of as an array of characters.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which function would you use to find the position (index) of a specific character or substring?",
+        "options": [
+          "find() or indexOf()",
+          "getPosition()",
+          "search()",
+          "lookFor()"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "In most languages, the strings \"hello\" and \"Hello\" are considered equal when compared directly.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `replace()` function in a string is used to:",
+        "options": [
+          "Delete the entire string",
+          "Find a substring and replace it with another substring",
+          "Change the string's data type",
+          "Move the string to a new memory location"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is an empty string?",
+        "options": [
+          "A string with a value of 'null'",
+          "A string containing only whitespace characters",
+          "A string with a length of zero",
+          "A string that has not been initialized"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Accessing an index that is greater than or equal to the string's length will result in an error.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'string literal' is:",
+        "options": [
+          "A variable that holds a string",
+          "A string value written directly in the source code",
+          "A function that returns a string",
+          "The maximum length a string can be"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "How would you typically represent a double quote character inside a string literal that is also enclosed in double quotes?",
+        "options": [
+          "By using two double quotes: \"\"",
+          "By using an escape character before it: `\\\"`",
+          "By using a single quote: '",
+          "It is not possible"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can perform arithmetic operations like subtraction or division on strings.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The process of converting a number to a string is called:",
+        "options": [
+          "Parsing",
+          "Type casting or type conversion",
+          "Concatenation",
+          "Indexing"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is an advantage of string immutability?",
+        "options": [
+          "It makes strings easier to modify",
+          "It allows strings to be used safely in multi-threaded environments and as keys in hash maps",
+          "It reduces the memory usage of strings",
+          "It makes string concatenation faster"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The character at a specific index in a string can be changed directly, like `myString[0] = 'X';`.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does the `charAt()` or direct index access (e.g., `s[i]`) return?",
+        "options": [
+          "A substring",
+          "The character at the specified index",
+          "The length of the string",
+          "A boolean value"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The process of converting a string that represents a number (e.g., \"123\") into an actual number type (e.g., integer 123) is called:",
+        "options": [
+          "Formatting",
+          "Parsing",
+          "Slicing",
+          "Trimming"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

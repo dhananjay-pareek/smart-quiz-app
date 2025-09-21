@@ -1,0 +1,297 @@
+[
+  {
+    "name": "File Operations",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the first step required before a program can interact with a file on a disk?",
+        "options": [
+          "Read the file",
+          "Close the file",
+          "Open the file",
+          "Delete the file"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "It is crucial to close a file after you are finished with it to save changes and free up system resources.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which file open mode is used to add new content to the end of an existing file?",
+        "options": [
+          "Read mode ('r')",
+          "Write mode ('w')",
+          "Append mode ('a')",
+          "New mode ('n')"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What happens if you open an existing file in 'write' mode ('w')?",
+        "options": [
+          "An error occurs",
+          "The new content is added to the end of the file",
+          "The existing content of the file is erased",
+          "The file is opened in read-only mode"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A 'file handle' or 'file stream' is an object that your program uses to interact with an open file.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does the 'read' operation do?",
+        "options": [
+          "It transfers data from the program to the file",
+          "It transfers data from the file into the program's memory",
+          "It renames the file",
+          "It checks if the file exists"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'EOF' marker?",
+        "options": [
+          "A special character that indicates the End-Of-File",
+          "An error that occurs when opening a file",
+          "A mode for opening files",
+          "A function for writing to a file"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "You can both read from and write to a file that is opened in 'read' mode ('r').",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a common exception or error you might encounter when trying to open a file for reading?",
+        "options": [
+          "FileTooLargeError",
+          "EndOfFileError",
+          "FileNotFoundError",
+          "WritePermissionError"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The 'write' operation typically involves:",
+        "options": [
+          "Moving a file to a new directory",
+          "Copying data from a file to a program variable",
+          "Copying data from a program variable into a file",
+          "Reading the file's metadata"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Forgetting to close a file can sometimes lead to data loss because the data might still be in a buffer.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'relative' file path specifies the file's location:",
+        "options": [
+          "Starting from the root of the file system",
+          "Relative to the program's current working directory",
+          "Using a URL",
+          "Relative to the user's home directory"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does a function like `readLine()` typically do?",
+        "options": [
+          "Reads the entire file content",
+          "Reads a single character from the file",
+          "Reads characters from the file until a newline character is encountered",
+          "Reads the last line of the file"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Opening a non-existent file in 'write' mode ('w') will usually create a new, empty file.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "An 'absolute' file path starts from:",
+        "options": [
+          "The current folder",
+          "The folder where the program is saved",
+          "The root directory of the file system (e.g., `C:\\` or `/`)",
+          "The user's desktop"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is NOT a standard file operation?",
+        "options": [
+          "Open",
+          "Read",
+          "Compile",
+          "Close"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Text files store data as human-readable characters, while binary files store data in a format only a computer can directly interpret.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Modern programming languages often provide a 'with' or 'using' statement for file I/O. What is the main advantage of this?",
+        "options": [
+          "It makes the file open faster",
+          "It automatically closes the file, even if errors occur",
+          "It allows you to read and write at the same time",
+          "It encrypts the file content"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does the 'file pointer' or 'cursor' indicate?",
+        "options": [
+          "The total size of the file",
+          "The current position in the file where the next read or write operation will occur",
+          "The file's name",
+          "The permissions of the file"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "When you open a file in 'append' mode ('a'), the file pointer is initially positioned at the beginning of the file.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If you try to write to a file opened in 'read' mode, what will most likely happen?",
+        "options": [
+          "The data will be written successfully",
+          "The file mode will automatically change to write mode",
+          "An I/O error or exception will occur",
+          "The data will be appended to the end of the file"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The process of ensuring that data in a buffer is written to the actual file is called:",
+        "options": [
+          "Reading",
+          "Closing",
+          "Opening",
+          "Flushing"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "You can have multiple files open in a program at the same time.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which operation is used to save changes and release the file for other programs to use?",
+        "options": [
+          "Open",
+          "Close",
+          "Read",
+          "Seek"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "To work with a file, a program needs to have the correct ______ from the operating system.",
+        "options": [
+          "name",
+          "size",
+          "permissions (e.g., read/write)",
+          "timestamp"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Opening a file in 'append' mode ('a') will erase its existing content.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which mode would you use if you need to both read from and write to a file?",
+        "options": [
+          "'r'",
+          "'w'",
+          "'a'",
+          "'r+' or 'w+'"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "Exception handling (`try-catch-finally`) is often used with file operations to:",
+        "options": [
+          "Make the file smaller",
+          "Ensure files are closed properly even if errors occur",
+          "Speed up reading and writing",
+          "Change the file's name"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

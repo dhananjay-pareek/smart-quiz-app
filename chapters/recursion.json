@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Recursion",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the definition of recursion in programming?",
+        "options": [
+          "A loop that never ends",
+          "The process of a function calling itself",
+          "A method for sorting data",
+          "A type of conditional statement"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Every recursive function must have a base case.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of a 'base case' in a recursive function?",
+        "options": [
+          "To start the recursion",
+          "To define the main logic of the function",
+          "To provide a stopping condition to prevent infinite recursion",
+          "To call the function again"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What happens if a recursive function has no base case?",
+        "options": [
+          "It will not run and cause a compile-time error",
+          "It will run once and then stop",
+          "It will result in infinite recursion and likely a 'stack overflow' error",
+          "It will return a default value of 0"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Iteration (using loops) and recursion are two completely different concepts that cannot solve the same problems.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The 'recursive step' is the part of the function that:",
+        "options": [
+          "Checks for the base case",
+          "Returns the final value",
+          "Calls the function itself with a modified argument",
+          "Initializes local variables"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure is implicitly used by the system to manage recursive function calls?",
+        "options": [
+          "Queue",
+          "Array",
+          "Stack",
+          "Linked List"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Recursive solutions are always more efficient in terms of memory usage than iterative solutions.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these problems is a classic example often solved with recursion?",
+        "options": [
+          "Calculating the sum of two numbers",
+          "Printing 'Hello, World!'",
+          "Calculating factorial or Fibonacci numbers",
+          "Assigning a value to a variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In a recursive factorial function `fact(n)`, what is the typical base case?",
+        "options": [
+          "When n is greater than 100",
+          "When n is an odd number",
+          "When n is 0 or 1",
+          "When n is negative"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Each recursive call creates a new entry on the call stack with its own set of local variables.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'stack overflow' error in recursion is caused by:",
+        "options": [
+          "A base case that is too simple",
+          "The call stack running out of memory due to too many nested function calls",
+          "Using too many variables in the function",
+          "A function that returns the wrong data type"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'tail recursion'?",
+        "options": [
+          "A function that calls itself at the beginning",
+          "A recursive call that is the very last operation in the function",
+          "A function that has no base case",
+          "A function that calls two other functions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Recursive functions can be harder to debug than iterative loops.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "For a recursive function to eventually terminate, the recursive call must be on a problem that is:",
+        "options": [
+          "Larger than the original problem",
+          "The exact same as the original problem",
+          "Simpler, or closer to the base case",
+          "Completely unrelated to the original problem"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is an advantage of recursion?",
+        "options": [
+          "Low memory usage",
+          "Fast performance",
+          "Can provide an elegant and simple solution for problems that are inherently recursive (e.g., tree traversal)",
+          "Easy for beginners to understand"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A function must return a value to be considered recursive.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The Fibonacci sequence `(0, 1, 1, 2, 3, 5, ...)` is defined by `F(n) = F(n-1) + F(n-2)`. This definition is inherently:",
+        "options": [
+          "Iterative",
+          "Recursive",
+          "Conditional",
+          "Sequential"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary disadvantage of a naive recursive solution for Fibonacci numbers?",
+        "options": [
+          "It is very memory efficient",
+          "It is very fast due to compiler optimizations",
+          "It is highly inefficient due to re-calculating the same values many times",
+          "It cannot be implemented in most languages"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Any problem that can be solved recursively can also be solved iteratively.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does the 'unwinding phase' of recursion refer to?",
+        "options": [
+          "When the function is first called",
+          "When the base case is hit and the functions begin returning their values up the call stack",
+          "The process of writing the recursive function",
+          "When a stack overflow error occurs"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Direct recursion is when a function calls itself. What is indirect recursion?",
+        "options": [
+          "When a function calls a loop",
+          "When function A calls function B, and function B calls function A",
+          "When a function has no base case",
+          "Another term for iteration"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The base case in a recursion is analogous to the loop termination condition in an iteration.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In `fact(3)`, a recursive factorial function would call `fact(2)`, which calls `fact(1)`. What happens when `fact(1)` (the base case) returns 1?",
+        "options": [
+          "The program terminates immediately",
+          "The value 1 is returned to the call of `fact(2)`, which then calculates `2 * 1`",
+          "It causes a stack overflow",
+          "The function calls `fact(0)`"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Recursive solutions often mirror:",
+        "options": [
+          "A linear, step-by-step process",
+          "A mathematical 'divide and conquer' strategy",
+          "The way a computer's hardware works",
+          "The process of variable declaration"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The depth of recursion refers to the number of times a function calls itself before hitting a base case.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "For which of the following tasks would recursion be a poor choice compared to a simple loop?",
+        "options": [
+          "Navigating a file system directory tree",
+          "Solving the Tower of Hanoi puzzle",
+          "Parsing a complex language structure",
+          "Summing the elements of a simple array"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A recursive function can have more than one base case.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

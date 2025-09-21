@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Constructors and Destructors",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary purpose of a constructor?",
+        "options": [
+          "To destroy an object and free memory",
+          "To perform a complex calculation",
+          "To initialize the state of a newly created object",
+          "To return a value to the main program"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A constructor is called automatically at the time of object creation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In many languages like Java and C++, how is a constructor typically named?",
+        "options": [
+          "It must be named 'init'",
+          "It has the same name as the class",
+          "It must be named 'constructor'",
+          "It can have any valid identifier name"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'default constructor'?",
+        "options": [
+          "A constructor that is defined in every class by default",
+          "A constructor that accepts one or more parameters",
+          "A constructor that takes no parameters",
+          "A constructor that can be called from anywhere"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A class can have more than one constructor.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The practice of defining multiple constructors with different parameter lists in the same class is called:",
+        "options": [
+          "Constructor overriding",
+          "Constructor inheritance",
+          "Constructor overloading",
+          "Constructor recursion"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main role of a destructor?",
+        "options": [
+          "To create a copy of an object",
+          "To initialize an object's attributes",
+          "To release resources held by an object before it is destroyed",
+          "To change the class of an object"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Constructors have a `void` return type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In languages with automatic garbage collection like Java or Python, the role of the destructor is:",
+        "options": [
+          "More critical for memory management than in C++",
+          "Less critical for memory management, but still useful for releasing other resources (like file handles)",
+          "Exactly the same as in C++",
+          "Non-existent, as these languages don't have destructors"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A constructor that accepts arguments to initialize an object's attributes is called a:",
+        "options": [
+          "Default constructor",
+          "Copy constructor",
+          "Static constructor",
+          "Parameterized constructor"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "You must explicitly call the destructor to destroy an object in all programming languages.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In C++, how is a destructor for a class named `MyClass` typically denoted?",
+        "options": [
+          "delete MyClass()",
+          "destruct MyClass()",
+          "~MyClass()",
+          "MyClass_destructor()"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'copy constructor'?",
+        "options": [
+          "A constructor that copies the class file",
+          "A constructor that creates a new object as a copy of an existing object",
+          "A constructor that can be copied to other classes",
+          "A constructor that accepts no parameters"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "If you don't define any constructor in your class, the language compiler typically provides a public default constructor for you.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Can a constructor be declared as `private`?",
+        "options": [
+          "No, constructors must always be public",
+          "Yes, this is often used in design patterns like the Singleton pattern",
+          "Yes, but it has no effect on how the object is created",
+          "Only in certain languages like Python"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "When is a destructor called?",
+        "options": [
+          "When the object is first created",
+          "When a method of the object is called",
+          "When the object's lifetime ends (e.g., it goes out of scope or is deleted)",
+          "Only when explicitly called by the programmer"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A destructor can accept parameters.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The primary task of a constructor is to ensure an object is in a _______ state upon creation.",
+        "options": [
+          "destroyed",
+          "valid and usable",
+          "copied",
+          "null"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following resources might you release in a destructor?",
+        "options": [
+          "Memory allocated on the stack",
+          "Integer variables",
+          "Open file handles or network connections",
+          "The object's attributes"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A class can have only one destructor.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, the special method `__init__()` acts as the class:",
+        "options": [
+          "Destructor",
+          "Constructor",
+          "Copy method",
+          "Static method"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If a class has a constructor that takes an integer, how would you create an object of that class?",
+        "options": [
+          "MyClass obj = new MyClass();",
+          "MyClass obj = new MyClass(10);",
+          "MyClass obj = new MyClass; obj.setValue(10);",
+          "MyClass obj(10);"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Constructors can call other methods of the same class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The sequence of events is:",
+        "options": [
+          "Object destruction, destructor call, memory deallocation",
+          "Constructor call, object creation, memory allocation",
+          "Memory allocation, constructor call, object creation",
+          "Destructor call, object destruction, memory deallocation"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What happens if you define a parameterized constructor but no default constructor, then try to create an object without arguments?",
+        "options": [
+          "The object is created successfully with default values",
+          "The parameterized constructor is called with null values",
+          "It will result in a compile-time error",
+          "The program will run but crash at that line"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Destructors are inherited by subclasses.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, the `__del__()` method is the:",
+        "options": [
+          "Constructor",
+          "Finalizer or destructor",
+          "Initializer",
+          "Deleter"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The main purpose of constructor overloading is to provide different ways of initializing an object.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

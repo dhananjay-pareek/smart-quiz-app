@@ -1,0 +1,266 @@
+[
+  {
+    "name": "History and Features of Programming Languages",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which of the following is often considered the first high-level programming language?",
+        "options": [
+          "COBOL",
+          "Fortran",
+          "ALGOL",
+          "LISP"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Java was developed by Sun Microsystems with the principle of 'Write Once, Run Anywhere'.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A key feature of 'statically-typed' languages like Java or C++ is that:",
+        "options": [
+          "Variable types are checked at runtime.",
+          "Variable types are checked at compile-time.",
+          "Variables do not have types.",
+          "Variables can change their type during execution."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Who is credited with creating the Python programming language?",
+        "options": [
+          "Dennis Ritchie",
+          "Bjarne Stroustrup",
+          "Guido van Rossum",
+          "James Gosling"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Interpreted languages, like Python or JavaScript, are translated into machine code all at once by a compiler before execution.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The C programming language was developed at Bell Labs primarily for what purpose?",
+        "options": [
+          "To be a beginner-friendly language",
+          "For scientific and mathematical computations",
+          "For business data processing",
+          "For developing the UNIX operating system"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What programming paradigm is most associated with languages like LISP and Haskell?",
+        "options": [
+          "Object-Oriented Programming",
+          "Procedural Programming",
+          "Functional Programming",
+          "Logical Programming"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "COBOL was designed specifically for scientific and engineering applications.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does the 'object-oriented' paradigm primarily revolve around?",
+        "options": [
+          "Step-by-step instructions in a linear sequence",
+          "The concept of 'objects' which contain data and methods",
+          "Mathematical functions and avoiding state changes",
+          "Rules and logical inferences"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "JavaScript was initially created to:",
+        "options": [
+          "Run on servers to handle database requests",
+          "Be a general-purpose scripting language",
+          "Add interactivity to web browsers",
+          "Develop mobile applications"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Garbage collection is a form of automatic memory management.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which language was created by Bjarne Stroustrup as an extension of the C language with object-oriented features?",
+        "options": [
+          "C#",
+          "Objective-C",
+          "C++",
+          "Java"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A 'dynamically-typed' language, such as Python or Ruby, determines variable types at:",
+        "options": [
+          "Compile-time",
+          "Link-time",
+          "Runtime",
+          "Design-time"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Ada is a structured, statically typed programming language named after Ada Lovelace.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What was the primary goal behind the creation of the Perl language?",
+        "options": [
+          "Web browser scripting",
+          "Mathematical modeling",
+          "Text processing and report generation",
+          "Operating system development"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is NOT a core feature of object-oriented programming?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation",
+          "Global variables and GOTO statements"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "The language 'Pascal' was designed by Niklaus Wirth to encourage good programming practices using structured programming.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The concept of a 'virtual machine' (VM) is famously used by which language to achieve platform independence?",
+        "options": [
+          "C",
+          "Assembly",
+          "Java",
+          "Fortran"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'syntactic sugar' in the context of programming languages?",
+        "options": [
+          "A critical error in the code",
+          "Syntax that is designed to make things easier to read or to express",
+          "A performance optimization feature",
+          "Comments that explain the code"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "PHP is a language primarily used for server-side web development.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Microsoft's C# language is most closely associated with which framework?",
+        "options": [
+          "Ruby on Rails",
+          "Django",
+          ".NET Framework",
+          "Spring"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A 'low-level language' is one that:",
+        "options": [
+          "Is easy for beginners to learn",
+          "Provides little or no abstraction from a computer's instruction set architecture",
+          "Is outdated and no longer in use",
+          "Is used for web development"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "SQL (Structured Query Language) is a general-purpose programming language similar to Python or C++.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which programming language was developed by Google and is known for its simplicity and efficiency in concurrent programming?",
+        "options": [
+          "Swift",
+          "Go",
+          "Kotlin",
+          "Rust"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main advantage of a compiled language over an interpreted one?",
+        "options": [
+          "It is more platform-independent",
+          "It is easier to debug",
+          "It generally has faster execution speed",
+          "It is easier to write"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+]

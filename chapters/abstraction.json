@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Abstraction",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the core idea of abstraction in OOP?",
+        "options": [
+          "To bundle data and methods together",
+          "To allow a class to inherit from another",
+          "To hide complex implementation details and show only essential features",
+          "To create multiple forms of a method"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Abstraction focuses on the 'what' an object does, rather than the 'how' it does it.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a real-world example of abstraction?",
+        "options": [
+          "A detailed blueprint of a car's engine",
+          "The steering wheel, pedals, and gearstick of a car",
+          "The chemical formula for gasoline",
+          "The assembly line process for building a car"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'abstract class'?",
+        "options": [
+          "A class that can be instantiated directly",
+          "A class that is a blueprint for other classes and cannot be instantiated itself",
+          "A class that has no methods",
+          "A class that only contains private data"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "An abstract class can contain both abstract methods and concrete (implemented) methods.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'abstract method'?",
+        "options": [
+          "A method that is declared without an implementation (no method body)",
+          "A method that is private",
+          "A method that performs a complex calculation",
+          "A method that has been fully implemented in a base class"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a class inherits from an abstract class, what must it do with the abstract methods?",
+        "options": [
+          "It must ignore them",
+          "It must make them private",
+          "It must provide an implementation (override) for them, or be abstract itself",
+          "It must call them from its constructor"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Encapsulation is a technique used to help achieve abstraction.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'interface' in the context of OOP?",
+        "options": [
+          "A graphical user interface (GUI)",
+          "A class with a full implementation for all its methods",
+          "A contract that defines a set of methods a class must implement, representing pure abstraction",
+          "A type of constructor"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "How does abstraction help in managing software complexity?",
+        "options": [
+          "By making all data public",
+          "By breaking down a system into smaller, manageable, and understandable components",
+          "By forcing the use of a single data type",
+          "By showing all the low-level details"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can create an object (instance) of an interface directly.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Abstraction focuses on the object's outside view, while Encapsulation prevents:",
+        "options": [
+          "Inheritance from the object",
+          "Uncontrolled access to the object's internal state",
+          "Method overriding",
+          "The object from being created"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A class that implements an interface must:",
+        "options": [
+          "Inherit the interface's attributes",
+          "Provide an implementation for all the methods defined in the interface",
+          "Have the same name as the interface",
+          "Be an abstract class itself"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "An abstract class must contain at least one abstract method.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is a key benefit of abstraction?",
+        "options": [
+          "It makes code run faster",
+          "It allows changes to be made to the internal implementation of an object without affecting the code that uses it",
+          "It ties code to a specific implementation",
+          "It removes the need for data types"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An Application Programming Interface (API) is a real-world example of:",
+        "options": [
+          "Inheritance",
+          "A detailed implementation guide",
+          "Abstraction",
+          "A specific object"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The keyword `abstract` is used in many languages to declare abstract classes and methods.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In the relationship between a car and its driver, the dashboard is the:",
+        "options": [
+          "Implementation",
+          "Abstraction",
+          "Inheritance",
+          "Object"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary difference between an abstract class and an interface?",
+        "options": [
+          "An abstract class can have implemented methods, while an interface typically cannot",
+          "An interface can be instantiated, but an abstract class cannot",
+          "A class can implement multiple abstract classes",
+          "There is no difference"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "A subclass is forced to provide an implementation for an abstract method it inherits.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Abstraction helps in _______ the dependency between different parts of a software system.",
+        "options": [
+          "increasing",
+          "removing",
+          "reducing",
+          "enforcing"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A concrete class is a class that:",
+        "options": [
+          "Is abstract",
+          "Cannot be inherited from",
+          "Has a full implementation for all its methods and can be instantiated",
+          "Only has abstract methods"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The main goal of abstraction is to simplify a complex system for the user.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a `Shape` class is abstract and has an abstract method `calculateArea()`, what does this imply?",
+        "options": [
+          "All shapes have the same area",
+          "The `Shape` class knows how to calculate its area",
+          "Any concrete subclass of `Shape` (like `Circle` or `Square`) must define how to calculate its own area",
+          "You cannot calculate the area of any shape"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which principle allows you to focus on a high level of object interaction without worrying about the details?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation",
+          "Abstraction"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "Abstraction and Encapsulation are competing principles; you can only use one at a time.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A class can implement _______ interfaces but can only inherit from _______ class (in most languages).",
+        "options": [
+          "one, multiple",
+          "multiple, one",
+          "one, one",
+          "multiple, multiple"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

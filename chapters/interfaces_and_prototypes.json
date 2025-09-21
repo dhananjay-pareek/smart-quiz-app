@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Interfaces and Prototypes",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is an 'interface' in object-oriented programming?",
+        "options": [
+          "A concrete class that can be instantiated",
+          "A blueprint of an object that contains its own data",
+          "A contract that defines a set of methods and properties a class must implement",
+          "A special method for creating objects"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "In prototype-based languages like JavaScript, objects inherit directly from other objects.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'prototype'?",
+        "options": [
+          "A keyword for creating a new class",
+          "An object that serves as a template from which other objects can inherit properties and methods",
+          "A special type of private method",
+          "A contract that a class must follow"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A class can _______ an interface.",
+        "options": [
+          "instantiate",
+          "extend",
+          "implement",
+          "construct"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Interfaces can contain implemented methods with a full method body.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The mechanism in JavaScript where an object looks up properties on its prototype if it doesn't have them itself is called the:",
+        "options": [
+          "Interface Chain",
+          "Class Hierarchy",
+          "Prototype Chain",
+          "Constructor Chain"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is a primary benefit of using interfaces?",
+        "options": [
+          "To provide a full implementation for methods",
+          "To enforce a common structure or capability across multiple, unrelated classes",
+          "To create objects directly",
+          "To store data for a class"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "In classical inheritance, a class inherits from another class. In prototypal inheritance, an object inherits from another object.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If you add a new method to an object's prototype in JavaScript, what happens?",
+        "options": [
+          "Only that specific object can use the new method",
+          "It causes an error",
+          "All objects that share that prototype will have access to the new method",
+          "The method is added to the class definition"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In many languages, a single class can implement ________ interfaces.",
+        "options": [
+          "only one",
+          "zero",
+          "multiple",
+          "a maximum of two"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "You can create a direct instance of an interface.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which programming paradigm is most associated with prototypes?",
+        "options": [
+          "Procedural Programming",
+          "Functional Programming",
+          "Prototype-based Programming",
+          "Logical Programming"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Interfaces are a key part of achieving which OOP pillar?",
+        "options": [
+          "Encapsulation",
+          "Inheritance (in a way)",
+          "Abstraction",
+          "Polymorphism"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "JavaScript's `class` syntax is just 'syntactic sugar' over its underlying prototypal inheritance model.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a class implements an interface, it must:",
+        "options": [
+          "Provide an implementation for all of the interface's methods",
+          "Inherit the interface's constructor",
+          "Have the same name as the interface",
+          "Be a final class"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main difference between an abstract class and an interface?",
+        "options": [
+          "An abstract class can have implemented methods, while an interface is typically a pure contract",
+          "You can inherit from multiple interfaces, but typically only one abstract class",
+          "An abstract class can have constructors and attributes",
+          "All of the above"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "Adding properties directly to an object instance in JavaScript affects its prototype.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The concept of a 'contract' for what a class can do is best represented by a(n):",
+        "options": [
+          "Object",
+          "Prototype",
+          "Interface",
+          "Variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which language is famously prototype-based?",
+        "options": [
+          "Java",
+          "C++",
+          "JavaScript",
+          "C#"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Interfaces help in creating loosely coupled systems.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In JavaScript, every object has a private property which holds a link to another object called its:",
+        "options": [
+          "Interface",
+          "Class",
+          "Parent",
+          "Prototype"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is a feature of classical, interface-based OOP but NOT prototypal OOP?",
+        "options": [
+          "Inheritance",
+          "Objects",
+          "Explicit class definitions as blueprints",
+          "Methods"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "An interface can contain attributes/fields.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If you try to access a property on a JavaScript object and it's not found, where does the JavaScript engine look next?",
+        "options": [
+          "It returns an error immediately",
+          "It looks at the object's prototype",
+          "It checks global variables",
+          "It returns null"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "To achieve a form of multiple inheritance in Java, a programmer would use:",
+        "options": [
+          "Multiple abstract classes",
+          "Multiple interfaces",
+          "Prototypes",
+          "Multiple parent classes"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "In a prototype-based system, you can add new properties to objects at runtime.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does it mean for a system to be 'loosely coupled'?",
+        "options": [
+          "Components are highly dependent on each other's specific implementations",
+          "Components interact through well-defined interfaces, reducing dependencies",
+          "The system has no structure",
+          "The code is written in a single, large file"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The top-most object in the JavaScript prototype chain is typically:",
+        "options": [
+          "The first object you create",
+          "`Window`",
+          "`Object.prototype`",
+          "`null`"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Parameters and Return Types",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "In a function definition `def greet(name):`, `name` is a:",
+        "options": [
+          "Argument",
+          "Parameter",
+          "Return Type",
+          "Keyword"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The value a function sends back to the caller is known as its parameter.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'argument' in the context of functions?",
+        "options": [
+          "A variable declared inside the function",
+          "The data type of the function's output",
+          "The actual value or data passed into a function when it is called",
+          "A variable in the function's definition"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which keyword is used to specify the value a function should send back?",
+        "options": [
+          "send",
+          "pass",
+          "exit",
+          "return"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A function can have parameters but no return type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does a `void` return type indicate?",
+        "options": [
+          "The function returns a null value",
+          "The function returns a value of 0",
+          "The function does not return any value",
+          "The function will cause an error"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "When calling a function `calculate(10, 5)`, the values `10` and `5` are:",
+        "options": [
+          "Parameters",
+          "Arguments",
+          "Return values",
+          "Data types"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The data type of the value specified in the `return` statement must match the function's declared return type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What happens to the value returned by a function if it is not assigned to a variable or used in an expression?",
+        "options": [
+          "It is automatically printed to the screen",
+          "It causes a syntax error",
+          "It is generally discarded and has no effect",
+          "The program waits for it to be used"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'pass-by-value'?",
+        "options": [
+          "The function receives a reference to the original variable",
+          "The function receives a copy of the argument's value",
+          "The function can modify the original argument directly",
+          "Only values can be passed, not variables"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function can be defined to accept zero parameters.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A function's 'signature' is typically composed of its name and its list of:",
+        "options": [
+          "Return values",
+          "Local variables",
+          "Parameters",
+          "Arguments"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'pass-by-reference'?",
+        "options": [
+          "The function receives a copy of the argument's value, which cannot be changed",
+          "A reference to the argument's memory location is passed, allowing modification of the original data",
+          "A special type of function that cannot accept arguments",
+          "A method that only works for returning values"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function can have multiple `return` statements.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What are 'default parameters'?",
+        "options": [
+          "Parameters that are mandatory for every function call",
+          "Parameters that are automatically assigned a value if no argument is provided for them",
+          "Parameters that can only accept one default data type",
+          "Parameters that refer to other functions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In the line `int result = sum(a, b);`, the `int` keyword at the beginning represents:",
+        "options": [
+          "The data type of the variable `result`",
+          "A parameter for the `sum` function",
+          "A command to execute the function",
+          "The name of the function"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "The order in which arguments are passed to a function does not matter.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If a function is defined as `int calculate()`, what is expected?",
+        "options": [
+          "The function must accept one integer parameter",
+          "The function will return an integer value",
+          "The function is named `int`",
+          "The function cannot have a `return` statement"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What happens when a `return` statement is executed inside a function?",
+        "options": [
+          "The function continues executing any remaining code",
+          "The function immediately stops and control is given back to the caller",
+          "The function restarts",
+          "The function's parameters are reset"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Primitive data types (like int, float, boolean) are typically passed by reference.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the correct way to capture the output of a function `getValue()` that returns a number?",
+        "options": [
+          "getValue(myNumber);",
+          "let myNumber = getValue();",
+          "function myNumber = getValue();",
+          "getValue() -> myNumber;"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Parameters are to a function definition as ______ are to a function call.",
+        "options": [
+          "return types",
+          "arguments",
+          "variables",
+          "methods"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function that returns `void` cannot be called on the right side of an assignment operator.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The list of parameters in a function definition is enclosed in:",
+        "options": [
+          "Square brackets []",
+          "Curly braces {}",
+          "Parentheses ()",
+          "Angle brackets <>"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the maximum number of values a function can return with a single `return` statement?",
+        "options": [
+          "Zero",
+          "One (which can be a single value, an array, or an object)",
+          "Two",
+          "Unlimited"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function's return type is optional in all programming languages.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Complex data types (like objects or arrays) are often passed by:",
+        "options": [
+          "Value, creating a full copy",
+          "Reference, passing a pointer to the original data",
+          "Default, which is always an integer",
+          "They cannot be passed to functions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The names of a function's parameters must be unique within that function's definition.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

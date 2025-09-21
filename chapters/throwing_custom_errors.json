@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Throwing Custom Errors",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary reason for creating a custom exception?",
+        "options": [
+          "To make the program run faster",
+          "To handle errors that the language cannot handle",
+          "To represent specific, application-level errors with meaningful names",
+          "To replace the need for `try-catch` blocks"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A custom exception class is typically created by inheriting from a standard `Exception` class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which keyword is used to manually trigger or generate an exception?",
+        "options": [
+          "catch",
+          "finally",
+          "new",
+          "throw (or raise)"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "Why is it beneficial to have a custom exception like `InvalidPasswordException` instead of using a generic `Exception`?",
+        "options": [
+          "It uses less memory",
+          "It allows a `catch` block to specifically handle that one type of error",
+          "It automatically validates the password",
+          "It prevents all other exceptions from occurring"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You must throw a new instance of an exception class, not the class itself.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "How can you pass a descriptive message with a custom exception?",
+        "options": [
+          "By printing the message before throwing",
+          "By adding a constructor to the custom exception class that accepts a string message",
+          "By throwing the message as a separate variable",
+          "You cannot pass messages with custom exceptions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `throw` keyword is typically followed by:",
+        "options": [
+          "A string literal",
+          "An integer error code",
+          "An object that is an instance of an Exception class",
+          "A boolean value"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Once an exception is thrown, the normal execution of the function stops immediately.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the process of an exception moving up the call stack until it is caught called?",
+        "options": [
+          "Exception handling",
+          "Exception bubbling or propagation",
+          "Exception chaining",
+          "Exception logging"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of the following is the best candidate for a custom exception?",
+        "options": [
+          "Dividing by zero",
+          "Accessing an array out of bounds",
+          "A user's account having insufficient funds for a transaction",
+          "A null pointer access"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A thrown exception must be caught by a `catch` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "To create a custom exception class named `MyError` in Java, you would write:",
+        "options": [
+          "class MyError { }",
+          "class MyError throws Exception { }",
+          "class MyError extends Exception { }",
+          "exception MyError { }"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The `throw` statement is used to:",
+        "options": [
+          "Handle an exception",
+          "Signal that an exceptional condition has occurred",
+          "Define a new type of error",
+          "Clean up resources"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can throw any type of object as an exception in all programming languages.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which block is used to catch a custom exception named `MyCustomException`?",
+        "options": [
+          "catch(Exception e)",
+          "catch(MyCustomException e)",
+          "catch(Error e)",
+          "catch()"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is exception chaining?",
+        "options": [
+          "Having multiple `catch` blocks",
+          "Throwing an exception from a `finally` block",
+          "Wrapping an original exception inside a new, higher-level exception",
+          "A list of all possible exceptions"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "It is a good practice to use exceptions for normal control flow, like breaking out of a loop.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "When you catch a custom exception, you can access:",
+        "options": [
+          "Only a generic error message",
+          "Any custom properties or methods you defined in your exception class",
+          "The state of the `try` block",
+          "The global variables of the program"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Throwing an exception is how a method can:",
+        "options": [
+          "Communicate a successful operation to its caller",
+          "Communicate an error or exceptional situation to its caller",
+          "Return multiple values",
+          "Modify its parameters"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Creating a custom exception hierarchy (with subclasses) allows for more granular error handling.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, which keyword is used to throw an exception?",
+        "options": [
+          "throw",
+          "raise",
+          "exception",
+          "error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A function that throws a 'checked exception' (in Java) must:",
+        "options": [
+          "Be a private function",
+          "Return a boolean value",
+          "Declare the exception in its method signature using the `throws` keyword",
+          "Also contain a `try-catch` block for it"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "You can throw a custom exception from within a constructor.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Why would you add a custom constructor to your `MyException` class?",
+        "options": [
+          "To prevent the exception from being thrown",
+          "To allow the person throwing the exception to provide a specific error message",
+          "To make the exception a checked exception",
+          "To catch the exception automatically"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The act of generating an exception is called:",
+        "options": [
+          "Catching or Handling",
+          "Throwing or Raising",
+          "Defining or Declaring",
+          "Finalizing or Cleaning up"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Custom exceptions make the code less readable and harder to understand.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If a method is documented to throw `InvalidInputException`, the caller of that method should be prepared to:",
+        "options": [
+          "Ignore all errors",
+          "Pass in any type of input",
+          "Handle that specific exception in a `catch` block",
+          "Rewrite the method"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Modules, Packages, and Libraries",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is a 'module' in the context of programming?",
+        "options": [
+          "A collection of different programs",
+          "A single file containing reusable code like functions, classes, and variables",
+          "A type of data structure",
+          "A hardware component for a computer"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The primary purpose of using modules is to break down a large program into smaller, more manageable files.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'package'?",
+        "options": [
+          "A single, large file of code",
+          "Another name for a variable",
+          "A collection of related modules organized in a directory hierarchy",
+          "A tool for debugging code"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A 'library' is best described as:",
+        "options": [
+          "A specific algorithm",
+          "A collection of packages and modules that provide functionality for specific tasks",
+          "A programming language's syntax",
+          "A place where code is physically stored"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A package can contain other packages (sub-packages).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which statement is used to bring the code from one module into another?",
+        "options": [
+          "include",
+          "require",
+          "import",
+          "All of the above (depending on the language)"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'namespace'?",
+        "options": [
+          "A system that ensures every variable in a program has a unique name",
+          "A container that holds a set of identifiers (names) and prevents naming conflicts",
+          "The amount of memory a package uses",
+          "A file that contains no code"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The 'Standard Library' is a set of modules and packages that you must install separately.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'third-party' library?",
+        "options": [
+          "A library that is built into the programming language",
+          "A library developed by someone outside the core language development team that you can install and use",
+          "A library that can only be used by three people",
+          "A library containing only three modules"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Tools like `pip` (for Python), `npm` (for Node.js), and `Maven` (for Java) are known as:",
+        "options": [
+          "Compilers",
+          "Debuggers",
+          "Package Managers",
+          "Text Editors"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The main benefit of using libraries is that you don't have to 'reinvent the wheel' for common tasks.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the correct hierarchy of these concepts from largest to smallest?",
+        "options": [
+          "Module -> Package -> Library",
+          "Library -> Package -> Module",
+          "Package -> Library -> Module",
+          "Module -> Library -> Package"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, what is the purpose of the `__init__.py` file in a directory?",
+        "options": [
+          "It contains the main code for the application",
+          "It is where all variables are initialized",
+          "It marks the directory as a package, allowing modules within it to be imported",
+          "It is a configuration file for the package manager"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Using an `import` statement makes the entire library's code part of your source file.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "When you import a module, you are essentially gaining access to its:",
+        "options": [
+          "File size and creation date",
+          "Comments and documentation only",
+          "Exported functions, classes, and variables",
+          "Debugging information"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A 'dependency' in software development is:",
+        "options": [
+          "An error in the code",
+          "A situation where your project relies on an external package or library to function",
+          "A built-in module",
+          "A folder containing source code"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A single package can only contain one module.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main advantage of code modularity?",
+        "options": [
+          "It makes the program run faster",
+          "It makes the code harder to read",
+          "It improves organization, reusability, and makes the code easier to maintain and debug",
+          "It reduces the number of files in a project"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If two different modules you import both have a function with the same name, this is a:",
+        "options": [
+          "Syntax Error",
+          "Feature of all languages",
+          "Naming Conflict or Collision",
+          "Common practice"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A well-known third-party library for data science in Python is NumPy.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does an API (Application Programming Interface) of a library define?",
+        "options": [
+          "How the library is implemented internally",
+          "The public functions, classes, and methods that you can use to interact with the library",
+          "The license under which the library is distributed",
+          "The size of the library on disk"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `math` module in Python's standard library provides functions for:",
+        "options": [
+          "File operations",
+          "Network requests",
+          "Mathematical operations like `sqrt()` and `sin()`",
+          "Creating graphical interfaces"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "All libraries are free to use.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The purpose of a package manager is to:",
+        "options": [
+          "Automate the process of installing, upgrading, and managing project dependencies",
+          "Write the code for your modules",
+          "Organize your files on the hard drive",
+          "Debug your packages"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'Framework' is different from a 'Library' because:",
+        "options": [
+          "A library calls your code, but you call a framework's code",
+          "There is no difference",
+          "Your code calls a library's functions, but a framework calls your code (Inversion of Control)",
+          "Frameworks are only for web development"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A module must contain at least one class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "To avoid naming conflicts, you can often import a module with an alias, like:",
+        "options": [
+          "`import pandas as pd`",
+          "`import pandas rename pd`",
+          "`import pandas -> pd`",
+          "`import pandas is pd`"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main idea behind organizing code into modules, packages, and libraries?",
+        "options": [
+          "Abstraction and Reusability",
+          "To make the final program larger",
+          "To make the code harder for others to understand",
+          "To satisfy compiler requirements"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

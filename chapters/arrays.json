@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Arrays",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is an array in programming?",
+        "options": [
+          "A single variable that can hold multiple values of different data types",
+          "A collection of elements of the same data type, stored in contiguous memory locations",
+          "A function that stores data",
+          "A keyword for creating loops"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The size of an array can be changed dynamically at any time after it has been created.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In most programming languages, the index of the first element in an array is:",
+        "options": [
+          "1",
+          "-1",
+          "0",
+          "The size of the array"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If an array is declared as `int numbers[5];`, what is the index of the last element?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "An 'Array Index Out of Bounds' error occurs when you try to access an element at an index that does not exist.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "How would you access the third element in an array named `scores`?",
+        "options": [
+          "scores[3]",
+          "scores(3)",
+          "scores[2]",
+          "scores(2)"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What does the `length` or `size` property of an array typically represent?",
+        "options": [
+          "The index of the last element",
+          "The total number of elements the array can hold",
+          "The value of the first element",
+          "The amount of memory the array uses"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "All elements in a single array must be of the same data type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A two-dimensional array can be thought of as a:",
+        "options": [
+          "A single line of elements",
+          "A table with rows and columns",
+          "A function",
+          "A data type"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which loop is commonly used to iterate through all the elements of an array?",
+        "options": [
+          "An if-else statement",
+          "A do-while loop",
+          "A for loop",
+          "A switch statement"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Initializing an array means assigning it a name and data type.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In a 2D array `matrix[3][4]`, how would you access the element in the first row and second column?",
+        "options": [
+          "matrix[1][2]",
+          "matrix[2][1]",
+          "matrix[0][1]",
+          "matrix[1][0]"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the term for a single item stored within an array?",
+        "options": [
+          "A variable",
+          "A parameter",
+          "An element",
+          "An index"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The index of an array element is used to specify its position.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If an array has a length of 10, what is the valid range of indices?",
+        "options": [
+          "1 to 10",
+          "0 to 10",
+          "0 to 9",
+          "1 to 9"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'sparse array'?",
+        "options": [
+          "An array where most of the elements have a value of zero",
+          "An array that can only hold a few elements",
+          "An array that cannot be changed",
+          "Another name for a 2D array"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "Arrays are stored in non-contiguous memory locations, meaning elements can be scattered randomly in memory.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary advantage of using an array?",
+        "options": [
+          "They are highly flexible in size",
+          "They provide fast, random access to elements using an index",
+          "They can store elements of mixed data types",
+          "They automatically sort their elements"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In the declaration `String[] names = {\"Ali\", \"Bob\", \"Charlie\"};`, what is `names[1]`?",
+        "options": [
+          "\"Ali\"",
+          "\"Bob\"",
+          "\"Charlie\"",
+          "An error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The process of placing elements into an array is called 'declaration'.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An array of arrays is also known as a:",
+        "options": [
+          "Parallel array",
+          "Jagged array",
+          "Multi-dimensional array",
+          "Dynamic array"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is a primary disadvantage of arrays in many languages?",
+        "options": [
+          "Slow access to elements",
+          "They have a fixed size upon creation",
+          "They can only store numbers",
+          "They are difficult to loop through"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A 'for-each' or 'enhanced for' loop can be used to iterate through an array without using an index variable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If `data = [10, 20, 30, 40]`, what happens if you try to access `data[4]`?",
+        "options": [
+          "It will return 0",
+          "It will return the last element, 40",
+          "It will cause an index out of bounds error",
+          "It will return a null value"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "An 'associative array' or 'dictionary', unlike a standard array, uses _____ instead of integers to index its elements.",
+        "options": [
+          "Floating-point numbers",
+          "Keys (often strings)",
+          "Boolean values",
+          "Other arrays"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Searching for an element in an unsorted array typically requires checking each element one by one.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The number used to access a specific element in an array is called the:",
+        "options": [
+          "Key",
+          "Value",
+          "Index or Subscript",
+          "Pointer"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "You can have an array of strings, an array of integers, or an array of booleans.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

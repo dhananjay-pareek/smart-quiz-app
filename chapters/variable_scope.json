@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Variable Scope",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What does the 'scope' of a variable determine?",
+        "options": [
+          "Its data type",
+          "Its maximum value",
+          "The region of the code where it can be accessed",
+          "How much memory it uses"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A variable declared inside a function is known as a global variable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'local variable'?",
+        "options": [
+          "A variable that is accessible from anywhere in the program",
+          "A variable declared inside a function or a block, only accessible there",
+          "A variable that can only be an integer",
+          "A variable that cannot be changed"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A variable declared outside of any function has what kind of scope?",
+        "options": [
+          "Local Scope",
+          "Block Scope",
+          "Global Scope",
+          "Function Scope"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Local variables are created when a function is called and are destroyed when the function exits.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'variable shadowing'?",
+        "options": [
+          "When two variables have the same value",
+          "When a local variable has the same name as a global variable, hiding the global one within its scope",
+          "When a variable is declared but never used",
+          "When a variable is encrypted"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "In languages with 'block scope' (like C++ or JavaScript with `let`), a variable declared inside a `for` loop is:",
+        "options": [
+          "Accessible anywhere in the function",
+          "A global variable",
+          "Only accessible inside that `for` loop",
+          "Accessible only after the loop finishes"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "It is generally considered good practice to use as many global variables as possible.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The 'lifetime' of a variable refers to:",
+        "options": [
+          "How many times its value can change",
+          "The period during which the variable exists in memory",
+          "The time it takes to declare the variable",
+          "Its data type"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Why should the use of global variables be minimized?",
+        "options": [
+          "They are slower to access than local variables",
+          "They can be modified from anywhere, making the program harder to debug",
+          "They can only store string data",
+          "They use significantly more memory"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Parameters of a function have local scope within that function.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Consider two different functions, `funcA` and `funcB`. If both define a local variable named `count`, these variables are:",
+        "options": [
+          "The same variable, sharing the same memory",
+          "Two different, independent variables",
+          "A cause for a syntax error",
+          "Automatically converted to global variables"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which keyword in Python is used to modify a global variable from within a function?",
+        "options": [
+          "var",
+          "global",
+          "let",
+          "public"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Block scope means a variable is only accessible within the curly braces `{}` or indented block it was defined in.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the scope of a variable declared in the initialization part of a `for` loop, like `for (int i = 0; ...)`?",
+        "options": [
+          "Global to the whole program",
+          "Local to the function containing the loop",
+          "Local to the `for` loop itself (block scope)",
+          "It has no scope"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If you try to access a local variable before it is declared within its scope, what will happen?",
+        "options": [
+          "It will have a default value of 0",
+          "It will access a global variable of the same name",
+          "It will result in a compile-time or runtime error",
+          "The program will ask for user input"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A global variable's lifetime lasts for the entire duration of the program's execution.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which scope is the innermost?",
+        "options": [
+          "Global scope",
+          "Local (Function) scope",
+          "Block scope",
+          "File scope"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Encapsulation, a principle of OOP, is related to scope because it:",
+        "options": [
+          "Makes all variables global",
+          "Bundles data with methods and restricts direct access to the data's scope",
+          "Eliminates the need for variables",
+          "Requires all variables to be integers"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function can access variables defined in its own local scope and in the global scope.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In a situation of variable shadowing, which variable will be used inside the function?",
+        "options": [
+          "The global variable",
+          "The local variable",
+          "Both will be combined",
+          "An error will occur"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary advantage of using local variables?",
+        "options": [
+          "They can be accessed from any function",
+          "They help prevent unintended side effects and name conflicts",
+          "They exist for the entire lifetime of the program",
+          "They don't need to be declared"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "It is possible for a function to have no local variables of its own.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The set of all scopes that are visible from a certain point in the code is known as the:",
+        "options": [
+          "Scope chain",
+          "Variable list",
+          "Function stack",
+          "Global namespace"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In JavaScript, a variable declared with `var` has ______ scope.",
+        "options": [
+          "Block scope",
+          "Function scope",
+          "Global scope only",
+          "No scope"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function cannot modify a global variable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The memory for local variables is typically allocated on the:",
+        "options": [
+          "Heap",
+          "Stack",
+          "Hard drive",
+          "Global data segment"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A variable can be used outside of its defined scope.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

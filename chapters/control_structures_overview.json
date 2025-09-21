@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Control Structures Overview",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary purpose of a control structure in programming?",
+        "options": [
+          "To store data in variables",
+          "To perform mathematical calculations",
+          "To control the order in which statements are executed",
+          "To define data types"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "An `if` statement executes a block of code only if its condition is true.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which type of control structure is used to repeat a block of code multiple times?",
+        "options": [
+          "Selection (if/else)",
+          "Jump (break/continue)",
+          "Iteration (loops)",
+          "Exception Handling (try/catch)"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The `else` block in an `if-else` statement is executed when:",
+        "options": [
+          "The `if` condition is true",
+          "The `if` condition is false",
+          "Always, regardless of the condition",
+          "Only when there is an error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A `for` loop is an example of a selection control structure.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main difference between a `while` loop and a `do-while` loop?",
+        "options": [
+          "A `while` loop is faster",
+          "A `do-while` loop's body is guaranteed to execute at least once",
+          "A `while` loop can only use boolean conditions",
+          "There is no difference"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does the `break` statement do when used inside a loop?",
+        "options": [
+          "It skips the current iteration and continues with the next one",
+          "It terminates the loop and the program immediately",
+          "It terminates the loop and execution continues at the statement following the loop",
+          "It causes an error"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A `switch-case` statement is a type of iteration structure.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `continue` statement is used to:",
+        "options": [
+          "End the program",
+          "Exit the loop or switch statement completely",
+          "Skip the rest of the current loop iteration and proceed to the next one",
+          "Go back to the beginning of the program"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which control structure is best suited for executing one of many blocks of code based on the value of a single variable?",
+        "options": [
+          "if-else if-else",
+          "while loop",
+          "for loop",
+          "switch-case"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "An infinite loop is a loop that runs forever because its terminating condition is never met.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In a `for` loop, which part is executed only once at the very beginning?",
+        "options": [
+          "The condition check",
+          "The increment/decrement",
+          "The initialization",
+          "The loop body"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What happens if the condition of a `while` loop is false from the very start?",
+        "options": [
+          "The loop body executes once",
+          "The loop body is never executed",
+          "The program produces a syntax error",
+          "The loop becomes an infinite loop"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Nesting control structures means placing one control structure inside another.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the `default` case in a `switch` statement?",
+        "options": [
+          "It is the first case that is always checked",
+          "It is executed if none of the other `case` values match the expression",
+          "It is a mandatory case in every switch statement",
+          "It resets the value of the switch variable"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A `return` statement, when used inside a function, is an example of a:",
+        "options": [
+          "Selection statement",
+          "Iteration statement",
+          "Jump statement",
+          "Declaration statement"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "You can use a `for` loop to iterate over the items in an array or list.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The condition in an `if` statement or a loop must evaluate to what kind of value?",
+        "options": [
+          "Integer",
+          "String",
+          "Boolean",
+          "Float"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is 'sequential execution'?",
+        "options": [
+          "Executing statements in the order they appear in the code, without any branching or looping",
+          "Executing statements in a random order",
+          "Repeating a block of code",
+          "Choosing between two or more paths of execution"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "The `goto` statement is a commonly used and recommended control structure in modern programming.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which loop is considered a 'pre-test' loop, where the condition is checked before the loop body is executed?",
+        "options": [
+          "do-while",
+          "for-each",
+          "while",
+          "All of the above"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A block of code, often enclosed in curly braces `{}`, is also known as a:",
+        "options": [
+          "Condition",
+          "Statement",
+          "Compound statement",
+          "Variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "An `else` statement can exist without a preceding `if` statement.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The `else if` (or `elif`) statement allows you to:",
+        "options": [
+          "End the `if` block",
+          "Check a new condition if the first `if` condition was false",
+          "Run code regardless of the `if` condition",
+          "Repeat the `if` block"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which part of a `for` loop is executed after each iteration of the loop body?",
+        "options": [
+          "The initialization",
+          "The condition",
+          "The increment/decrement",
+          "None of the above"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Control structures can be categorized into sequence, selection, and iteration.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is a conditional operator that provides a shorthand for an `if-else` statement?",
+        "options": [
+          "The `&&` operator",
+          "The `||` operator",
+          "The ternary operator (`?:`)",
+          "The `==` operator"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Forgetting to increment a counter variable in a `while` loop might lead to what problem?",
+        "options": [
+          "A syntax error",
+          "An infinite loop",
+          "The loop never executing",
+          "The program crashing immediately"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The flow of execution in a program is the order in which individual statements are executed.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

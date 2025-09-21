@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Database Connectivity",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary purpose of database connectivity in an application?",
+        "options": [
+          "To design the user interface",
+          "To allow the application to perform CRUD operations (Create, Read, Update, Delete) on a database",
+          "To compile the source code",
+          "To manage network protocols"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A 'connection string' is a string that contains the information needed to connect to a specific database.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'database driver' or 'connector'?",
+        "options": [
+          "The person who manages the database",
+          "A hardware device for connecting to the database",
+          "A software component that enables an application to communicate with a database system",
+          "The main executable of the database"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is NOT typically part of a connection string?",
+        "options": [
+          "Server address",
+          "Username and Password",
+          "Database name",
+          "The application's source code path"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "It is a good security practice to hardcode usernames and passwords directly into the application's source code.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'connection pool'?",
+        "options": [
+          "A database that stores information about network connections",
+          "A cache of database connections that can be reused by the application",
+          "A tool for visualizing database schemas",
+          "A security feature that blocks database access"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main benefit of using a connection pool?",
+        "options": [
+          "It increases database storage capacity",
+          "It improves security by encrypting all data",
+          "It improves performance by reducing the overhead of opening and closing connections",
+          "It simplifies SQL queries"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Once a connection to a database is established, it should never be closed.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does a 'statement' or 'cursor' object do?",
+        "options": [
+          "It represents the physical connection to the database",
+          "It is used to execute SQL queries against the database",
+          "It stores the results of a query",
+          "It defines the database schema"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A 'ResultSet' or a similar data structure is used to:",
+        "options": [
+          "Hold the data returned from a database query (like a SELECT statement)",
+          "Establish the initial connection",
+          "Close the database connection",
+          "Define a new table in the database"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "ODBC (Open Database Connectivity) is a standard API for accessing database management systems.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the typical first step in the database interaction lifecycle within an application?",
+        "options": [
+          "Execute a query",
+          "Process the results",
+          "Establish a connection",
+          "Close the connection"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the final, crucial step after you are finished interacting with a database?",
+        "options": [
+          "Open another connection",
+          "Delete the driver",
+          "Close the connection to free up resources",
+          "Clear the result set"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The same database driver can be used to connect to any type of database (e.g., MySQL, PostgreSQL, SQL Server).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A 'SQL Injection' attack is a security vulnerability that occurs when:",
+        "options": [
+          "The database server runs out of memory",
+          "The network connection is too slow",
+          "User input is improperly sanitized and is executed as part of a SQL query",
+          "A user tries to connect with the wrong password"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What does ORM (Object-Relational Mapping) provide?",
+        "options": [
+          "A way to write SQL queries directly in the application",
+          "A higher-level abstraction that maps application objects to database tables",
+          "A type of database driver",
+          "A tool for managing connection pools"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Database connections are a limited and resource-intensive commodity.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "When iterating through a ResultSet, you are typically:",
+        "options": [
+          "Modifying the database schema",
+          "Processing the rows returned by a query one by one",
+          "Opening new connections",
+          "Closing the connection for each row"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "JDBC is a Java API for connecting to:",
+        "options": [
+          "Web servers",
+          "File systems",
+          "Relational databases",
+          "Remote computers"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "It is good practice to wrap database connection logic in a `try-finally` or `try-with-resources` block.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'prepared statement' is often used to:",
+        "options": [
+          "Improve performance for frequently executed queries and prevent SQL injection",
+          "Create a new database",
+          "Store the connection string securely",
+          "Design the user interface for the database"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is a popular NoSQL database that would require a specific driver to connect to?",
+        "options": [
+          "MySQL",
+          "PostgreSQL",
+          "MongoDB",
+          "SQL Server"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "An application can only connect to one database at a time.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The authentication part of a connection string refers to:",
+        "options": [
+          "The name of the database",
+          "The version of the driver",
+          "Verifying the identity of the user (e.g., with a username and password)",
+          "The IP address of the server"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A transaction is a sequence of operations performed as a single logical unit of work. To manage them, you would use a:",
+        "options": [
+          "ResultSet",
+          "Connection object",
+          "Statement object",
+          "Driver"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The process of connecting to a database is typically a fast, low-cost operation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If a database connection fails, the application will typically receive a(n):",
+        "options": [
+          "ResultSet",
+          "Success code",
+          "Exception or error",
+          "New connection"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which part of the application is responsible for knowing how to talk to a specific database vendor (e.g., Oracle vs. MySQL)?",
+        "options": [
+          "The user interface",
+          "The main application logic",
+          "The database driver",
+          "The operating system"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+]

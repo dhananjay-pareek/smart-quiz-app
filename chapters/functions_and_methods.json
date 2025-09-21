@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Functions and Methods",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary benefit of using functions in programming?",
+        "options": [
+          "To make the program run faster",
+          "To reduce code repetition and improve modularity",
+          "To store large amounts of data",
+          "To connect to the internet"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function must always return a value.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the difference between a function 'definition' and a 'call'?",
+        "options": [
+          "There is no difference",
+          "A definition is where the function's code is written; a call is where it is executed",
+          "A call is where the function's code is written; a definition is where it is executed",
+          "A definition is for numbers; a call is for text"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'parameter'?",
+        "options": [
+          "The actual value passed to a function when it is called",
+          "A variable listed in a function's definition that receives a value",
+          "The value that a function returns",
+          "A global variable accessible by all functions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The code inside a function's body is executed as soon as the function is defined.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A function that is part of a class or object is often called a:",
+        "options": [
+          "Procedure",
+          "Method",
+          "Subroutine",
+          "Module"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'argument'?",
+        "options": [
+          "A variable declared inside a function",
+          "The name of the function",
+          "The actual data or value passed to a function when it is called",
+          "A comment explaining the function"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A function can call another function.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What does a 'void' return type (or its equivalent) signify?",
+        "options": [
+          "The function will return an error",
+          "The function returns no value",
+          "The function returns a zero or null value",
+          "The function can return any data type"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a function 'signature'?",
+        "options": [
+          "The block of code inside the function",
+          "A comment describing what the function does",
+          "The function's name and the number and type of its parameters",
+          "The line of code that calls the function"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Variables declared inside a function are accessible from anywhere in the program.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The process of a function calling itself is known as:",
+        "options": [
+          "Iteration",
+          "Recursion",
+          "Declaration",
+          "Overloading"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the `return` keyword?",
+        "options": [
+          "To start the execution of a function",
+          "To pass arguments to a function",
+          "To exit the function and send a value back to the caller",
+          "To declare a new variable"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The names of parameters in a function definition must match the names of the variables used as arguments in the function call.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Breaking a large problem down into smaller, manageable parts using functions is called:",
+        "options": [
+          "Decomposition or modular programming",
+          "Compilation",
+          "Integration",
+          "Concatenation"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A 'local variable' is a variable that is:",
+        "options": [
+          "Accessible globally throughout the program",
+          "Declared within a function and is only accessible inside that function",
+          "Stored on a local computer instead of a server",
+          "Never changes its value"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A function can accept multiple arguments.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these is a primary reason to use methods in object-oriented programming?",
+        "options": [
+          "To define the data or attributes of an object",
+          "To define the behavior or actions that an object can perform",
+          "To create a new instance of an object",
+          "To store multiple objects together"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What happens after a `return` statement in a function is executed?",
+        "options": [
+          "The function continues to run",
+          "The program terminates",
+          "Execution control is passed back to the point where the function was called",
+          "The function restarts from the beginning"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A function that does not accept any arguments must be defined with empty parentheses `()`.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In the code `result = calculate(5, 10);`, `calculate` is the:",
+        "options": [
+          "Function definition",
+          "Function call",
+          "Function parameter",
+          "Function return value"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'built-in' function?",
+        "options": [
+          "A function that the programmer writes from scratch",
+          "A function that is part of the programming language and is available for use without being defined",
+          "A function that only works with numbers",
+          "A function that has errors"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The scope of a variable determines where it can be accessed in the code.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Why is it good practice to use functions for code that is used multiple times?",
+        "options": [
+          "It makes the code longer and more complex",
+          "It avoids having to write the same code over and over again (DRY principle)",
+          "It is the only way to use variables",
+          "It slows down the program"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If a recursive function doesn't have a 'base case' to stop the recursion, what will happen?",
+        "options": [
+          "The function will return 0 by default",
+          "The program will run correctly",
+          "It will lead to an infinite recursion and likely a stack overflow error",
+          "The function will only execute once"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "In many languages, functions are considered 'first-class citizens', meaning they can be treated like any other variable.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The part of the code that invokes or executes a function is the:",
+        "options": [
+          "Definition",
+          "Caller",
+          "Header",
+          "Body"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the term for defining multiple functions with the same name but different parameters?",
+        "options": [
+          "Overriding",
+          "Overloading",
+          "Recursion",
+          "Inheritance"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A method in an object can access and modify that object's data (attributes).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

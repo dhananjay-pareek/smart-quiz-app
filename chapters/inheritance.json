@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Inheritance",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary purpose of inheritance in OOP?",
+        "options": [
+          "To hide the implementation details of a class",
+          "To allow a new class to reuse, extend, and modify the behavior of an existing class",
+          "To create objects from a class blueprint",
+          "To bundle data and methods together"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "The class that is being inherited from is called the subclass or child class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The 'is-a' relationship is a key characteristic of which OOP concept?",
+        "options": [
+          "Encapsulation",
+          "Polymorphism",
+          "Inheritance",
+          "Abstraction"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "When a single class inherits from just one other class, it is known as:",
+        "options": [
+          "Multiple Inheritance",
+          "Multilevel Inheritance",
+          "Hierarchical Inheritance",
+          "Single Inheritance"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A subclass can access the private members of its superclass.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is multilevel inheritance?",
+        "options": [
+          "When one class inherits from multiple base classes",
+          "When multiple classes inherit from a single base class",
+          "When a class inherits from a class that is itself a subclass of another class (e.g., A -> B -> C)",
+          "When a class inherits from only one base class"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "When multiple subclasses inherit from a single superclass, it is called:",
+        "options": [
+          "Multiple Inheritance",
+          "Multilevel Inheritance",
+          "Hierarchical Inheritance",
+          "Hybrid Inheritance"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Java supports multiple inheritance of classes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The ability of a class to derive features from more than one base class is known as:",
+        "options": [
+          "Single Inheritance",
+          "Multiple Inheritance",
+          "Hierarchical Inheritance",
+          "Multilevel Inheritance"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the 'Diamond Problem' in the context of multiple inheritance?",
+        "options": [
+          "A problem where a class inherits methods with the same name from two different superclasses",
+          "A performance issue related to creating too many objects",
+          "An issue with accessing private members",
+          "A problem where a class cannot inherit from more than one class"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "The `protected` access modifier allows members to be accessed by the class itself and its subclasses.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Hybrid Inheritance is a combination of:",
+        "options": [
+          "Only single and multiple inheritance",
+          "Only hierarchical and multilevel inheritance",
+          "Two or more different types of inheritance (e.g., Hierarchical and Multiple)",
+          "Only inheritance and polymorphism"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The class that inherits from another class is called the:",
+        "options": [
+          "Superclass",
+          "Base class",
+          "Parent class",
+          "Subclass"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "When an object of a subclass is created, the constructor of the superclass is called first.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a `Dog` class inherits from an `Animal` class, which statement is true?",
+        "options": [
+          "An `Animal` is a `Dog`",
+          "A `Dog` is an `Animal`",
+          "They are unrelated",
+          "An `Animal` has a `Dog`"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The keyword `extends` (in Java) or the colon `:` (in C++/C#) is used to establish:",
+        "options": [
+          "An object instance",
+          "A new method",
+          "An inheritance relationship",
+          "A private member"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Method overriding is when a subclass provides a specific implementation for a method that is already defined in its superclass.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which type of inheritance is represented by this structure: `Vehicle` is a base class for `Car`, `Bus`, and `Truck`?",
+        "options": [
+          "Multiple",
+          "Multilevel",
+          "Single",
+          "Hierarchical"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What is a major benefit of inheritance?",
+        "options": [
+          "Code Reusability",
+          "Hiding data",
+          "Creating objects",
+          "Looping"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "A subclass can have its own methods and attributes in addition to the ones it inherits.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In a multilevel inheritance chain like `A -> B -> C`, which class inherits from which?",
+        "options": [
+          "`A` inherits from `B`, `B` inherits from `C`",
+          "`C` inherits from `B`, `B` inherits from `A`",
+          "`A` and `C` both inherit from `B`",
+          "`B` inherits from both `A` and `C`"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The keyword `super` (in Java) or `base` (in C#) is used to:",
+        "options": [
+          "Create a new object",
+          "Access members of the superclass from within a subclass",
+          "Define a private method",
+          "End an inheritance chain"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "All members (methods and attributes) of a base class are always inherited by the derived class.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A class that cannot be inherited from is often called a(n):",
+        "options": [
+          "Abstract class",
+          "Base class",
+          "Sealed or Final class",
+          "Subclass"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "How do languages like Java support the benefits of multiple inheritance without allowing multiple class inheritance?",
+        "options": [
+          "Through the use of abstract classes",
+          "Through the use of interfaces",
+          "Through the use of private classes",
+          "They do not support it in any form"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Inheritance creates a tightly coupled relationship between the superclass and subclass.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "If a subclass and a superclass have a method with the same signature, which one is executed when called on a subclass object?",
+        "options": [
+          "The superclass method",
+          "The subclass method (it overrides the superclass method)",
+          "Both are executed",
+          "It results in an error"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these access modifiers provides the most restrictive access?",
+        "options": [
+          "public",
+          "protected",
+          "private",
+          "default"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A constructor of a subclass implicitly calls the default constructor of its superclass if no other superclass constructor is explicitly called.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

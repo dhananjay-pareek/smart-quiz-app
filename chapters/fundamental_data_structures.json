@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Fundamental Data Structures",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is a data structure?",
+        "options": [
+          "A type of programming language",
+          "A collection of algorithms",
+          "A particular way of organizing and storing data in a computer",
+          "A computer's hardware component"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The main advantage of an array is that its size can be easily changed after creation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure follows the Last-In, First-Out (LIFO) principle?",
+        "options": [
+          "Queue",
+          "Stack",
+          "Array",
+          "Linked List"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure follows the First-In, First-Out (FIFO) principle?",
+        "options": [
+          "Stack",
+          "Tree",
+          "Graph",
+          "Queue"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A linked list stores elements in contiguous memory locations.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary operation for adding an element to a stack?",
+        "options": [
+          "enqueue",
+          "insert",
+          "push",
+          "add"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary operation for adding an element to a queue?",
+        "options": [
+          "push",
+          "enqueue",
+          "pop",
+          "add"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "Hash tables are highly efficient for looking up data based on a key.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure is ideal for representing a hierarchical structure, like a file system?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Tree",
+          "Array"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In a linked list, each element (node) contains data and a:",
+        "options": [
+          "Reference to the next node",
+          "Key value",
+          "Header",
+          "Data type"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "Accessing an element in an array by its index is a very fast operation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A real-world example of a queue is:",
+        "options": [
+          "A stack of plates",
+          "A line of people waiting for a bus",
+          "A family tree",
+          "A deck of cards"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure consists of a set of vertices (nodes) and edges that connect them?",
+        "options": [
+          "Tree",
+          "Stack",
+          "Graph",
+          "Linked List"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "Inserting an element at the beginning of an array is a very efficient operation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A dictionary or map is an implementation of which abstract data type?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Hash Table",
+          "Tree"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary operation for removing an element from a stack?",
+        "options": [
+          "dequeue",
+          "remove",
+          "get",
+          "pop"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "In a binary tree, each node can have at most two children.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The top-most node in a tree is called the:",
+        "options": [
+          "Leaf",
+          "Child",
+          "Root",
+          "Parent"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure is most suitable for storing key-value pairs?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Linked List",
+          "Hash Table / Dictionary"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A graph can have cycles, but a tree cannot.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The 'Undo' feature in a text editor is typically implemented using a:",
+        "options": [
+          "Queue",
+          "Stack",
+          "Tree",
+          "Graph"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure is non-linear?",
+        "options": [
+          "Array",
+          "Stack",
+          "Queue",
+          "Tree"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "A doubly linked list allows traversal in both forward and backward directions.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'hash collision'?",
+        "options": [
+          "When two different keys produce the same hash value",
+          "When a key is not found in the table",
+          "When the hash table is full",
+          "When a key and its value are the same"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure provides the most efficient insertion and deletion of elements at any position?",
+        "options": [
+          "Array",
+          "Stack",
+          "Linked List",
+          "Queue"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A data structure is chosen based on the specific problem and the required operations.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Social networks are often modeled using which data structure?",
+        "options": [
+          "Stack",
+          "Tree",
+          "Queue",
+          "Graph"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "What is the time complexity for accessing an element by index in an array?",
+        "options": [
+          "O(1) - Constant",
+          "O(n) - Linear",
+          "O(log n) - Logarithmic",
+          "O(n^2) - Quadratic"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "Choosing the right data structure can significantly impact a program's performance and memory usage.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

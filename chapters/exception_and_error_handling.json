@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Exception and Error Handling",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "What is the primary purpose of exception handling?",
+        "options": [
+          "To speed up the program",
+          "To manage and respond to runtime errors in a controlled manner",
+          "To fix syntax errors automatically",
+          "To write comments in the code"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "An 'exception' is an unexpected event that disrupts the normal flow of a program's instructions.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In which block of code should you place the statements that might cause an exception?",
+        "options": [
+          "catch / except",
+          "finally",
+          "try",
+          "throw"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The code inside a `catch` (or `except`) block is executed when:",
+        "options": [
+          "An exception occurs in the corresponding `try` block",
+          "No exception occurs",
+          "The program starts",
+          "The program ends"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "A single `try` block can have multiple `catch` blocks to handle different types of exceptions.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the purpose of the `finally` block?",
+        "options": [
+          "To handle the exception",
+          "To contain the code that might throw an exception",
+          "To execute code that must run, regardless of whether an exception occurred or not",
+          "To re-throw the exception"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "Which keyword is used to manually generate or trigger an exception?",
+        "options": [
+          "catch",
+          "try",
+          "throw (or raise)",
+          "finally"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "If an exception is thrown but not caught, the program will typically crash or terminate abruptly.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'stack trace'?",
+        "options": [
+          "A list of all variables currently in memory",
+          "A report of the active function calls on the program's stack at the time of an exception",
+          "A way to handle multiple exceptions",
+          "A block of code for resource cleanup"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An error like `OutOfMemoryError` is typically something:",
+        "options": [
+          "Your application can and should try to recover from",
+          "That is caused by a simple logic mistake",
+          "That your application cannot reasonably be expected to recover from",
+          "That is handled by a `try` block"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The `finally` block is executed even if a `return` statement is present in the `try` or `catch` blocks.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is a 'checked exception' (a concept in Java)?",
+        "options": [
+          "An exception that is checked by the programmer for correctness",
+          "An exception that the compiler forces you to handle (either with try-catch or by declaring it)",
+          "An exception that occurs only during compilation",
+          "An exception that is never caught"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "An exception like `NullPointerException` or `IndexOutOfBoundsException` is often caused by:",
+        "options": [
+          "A hardware failure",
+          "A programming logic error",
+          "Invalid user input",
+          "A network issue"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "It is good practice to catch the most specific exceptions first in a series of catch blocks.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary use case for a `finally` block?",
+        "options": [
+          "Logging the error message",
+          "Releasing resources like file handles or network connections",
+          "Displaying an error message to the user",
+          "Terminating the program"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "A generic `catch(Exception e)` block will catch:",
+        "options": [
+          "Only one specific type of exception",
+          "No exceptions",
+          "Any type of exception that inherits from the base `Exception` class",
+          "Only errors, not exceptions"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "If no exception occurs in the `try` block, the `catch` block is still executed.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does it mean to 'swallow' an exception?",
+        "options": [
+          "To catch an exception and handle it properly",
+          "To catch an exception in a block that does nothing, effectively hiding the error",
+          "To re-throw an exception",
+          "To log the exception to a file"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is an 'unchecked exception' (a concept in Java)?",
+        "options": [
+          "An exception that the compiler does not require you to handle",
+          "An exception that is not a subclass of `Exception`",
+          "An exception that can only be thrown by the Java Virtual Machine",
+          "An exception that has been checked and verified"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "Exception handling can be used as a form of normal program flow control.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Creating a custom exception class is achieved by:",
+        "options": [
+          "Using the `custom` keyword",
+          "Inheriting from a base `Exception` class",
+          "Modifying the standard `Exception` class",
+          "It is not possible to create custom exceptions"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "If a `try` block has a `return` statement and a `finally` block, which is executed last?",
+        "options": [
+          "The `return` statement",
+          "The `finally` block",
+          "They are executed simultaneously",
+          "The program crashes"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "An unhandled exception in one thread can cause the entire application to terminate.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "The flow of control for a handled exception is:",
+        "options": [
+          "try -> finally -> catch -> code after",
+          "try -> catch -> code after",
+          "try -> catch -> finally -> code after",
+          "try -> code after"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main benefit of handling specific exception types (e.g., `FileNotFoundException`) instead of a generic one (`Exception`)?",
+        "options": [
+          "It's easier to write",
+          "It makes the program run faster",
+          "It allows for tailored recovery logic based on the specific error that occurred",
+          "It catches more errors"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A `try` block must be followed by either a `catch` block, a `finally` block, or both.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What happens if an exception is thrown inside a `catch` block?",
+        "options": [
+          "It is ignored",
+          "The `finally` block is skipped",
+          "The program must have another, outer `try-catch` structure to handle it",
+          "The program terminates immediately"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "In Python, the `except` keyword is used instead of:",
+        "options": [
+          "try",
+          "finally",
+          "throw",
+          "catch"
+        ],
+        "answer": 3
+      },
+       {
+        "type": "tf",
+        "text": "Exceptions are typically objects that contain information about the error.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+]

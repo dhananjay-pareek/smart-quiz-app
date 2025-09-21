@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Stack, Queue, and Linked List",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "Which data structure operates on a Last-In, First-Out (LIFO) basis?",
+        "options": [
+          "Queue",
+          "Linked List",
+          "Stack",
+          "Array"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A queue follows the First-In, First-Out (FIFO) principle.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "In a linked list, each element is a separate object called a:",
+        "options": [
+          "Link",
+          "Node",
+          "Pointer",
+          "Item"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The operation to add an item to a stack is called:",
+        "options": [
+          "enqueue",
+          "insert",
+          "add",
+          "push"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "tf",
+        "text": "To get the first item in a queue without removing it, you would use the 'dequeue' operation.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the main advantage of a linked list over an array?",
+        "options": [
+          "Faster access to elements by index",
+          "Dynamic size and efficient insertion/deletion",
+          "Less memory usage",
+          "Elements are stored in contiguous memory"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "The operation to add an item to the end of a queue is called:",
+        "options": [
+          "push",
+          "pop",
+          "enqueue",
+          "add"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A real-world example of a stack is a line of people at a ticket counter.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does a node in a singly linked list contain?",
+        "options": [
+          "Only data",
+          "Only a pointer to the next node",
+          "Data and a pointer to the next node",
+          "Data and a pointer to the previous node"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "The operation to remove an item from a stack is called:",
+        "options": [
+          "dequeue",
+          "pop",
+          "remove",
+          "get"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "You can directly access any element of a linked list using an index, just like an array.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the first node in a linked list called?",
+        "options": [
+          "Root",
+          "Top",
+          "Front",
+          "Head"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "The operation to remove an item from the front of a queue is called:",
+        "options": [
+          "pop",
+          "remove",
+          "dequeue",
+          "get"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "A doubly linked list allows traversal in both forward and backward directions.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A browser's 'Back' button history is a good example of a:",
+        "options": [
+          "Queue",
+          "Stack",
+          "Linked List",
+          "Array"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What does the `peek()` or `top()` operation on a stack do?",
+        "options": [
+          "Removes the top element",
+          "Returns the top element without removing it",
+          "Adds an element to the top",
+          "Checks if the stack is empty"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A circular linked list is one where the last node points back to the first node.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "What is the primary disadvantage of a linked list compared to an array?",
+        "options": [
+          "They have a fixed size",
+          "Insertion and deletion are inefficient",
+          "They require more memory due to storing pointers",
+          "They cannot store duplicate values"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "A print spooler, which handles print jobs in the order they arrive, is an example of a:",
+        "options": [
+          "Stack",
+          "Linked List",
+          "Queue",
+          "Tree"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "If a stack is empty and you try to 'pop' an element, it results in an 'overflow' error.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "What is the term for an empty linked list?",
+        "options": [
+          "The `head` pointer is set to a special 'end' node",
+          "The `head` pointer is `null`",
+          "The `head` points to itself",
+          "It is not possible to have an empty linked list"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which of these data structures can be used to implement a stack?",
+        "options": [
+          "Array",
+          "Linked List",
+          "Both A and B",
+          "Neither A nor B"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "tf",
+        "text": "The `push` operation adds an element to the 'bottom' of the stack.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure is a linear data structure?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Linked List",
+          "All of the above"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "mcq",
+        "text": "To find the 50th element in a singly linked list, you must:",
+        "options": [
+          "Access it directly using an index like `list[49]`",
+          "Start from the head and traverse through 49 nodes",
+          "Start from the tail and move backward",
+          "Use a mathematical formula"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "tf",
+        "text": "A 'deque' (double-ended queue) allows adding and removing elements from both ends.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "A function call mechanism in most programming languages is managed by a:",
+        "options": [
+          "Queue",
+          "Linked List",
+          "Stack",
+          "Hash Table"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "mcq",
+        "text": "If a queue is empty, what is the state of its 'front' and 'rear' pointers?",
+        "options": [
+          "They point to the same location",
+          "`front` is ahead of `rear`",
+          "`rear` is ahead of `front`",
+          "They are both `null` or an invalid index like -1"
+        ],
+        "answer": 3
+      },
+       {
+        "type": "tf",
+        "text": "Inserting a new node into a doubly linked list requires updating more pointers than in a singly linked list.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "mcq",
+        "text": "Which data structure is most appropriate for a task scheduler that processes tasks in the order they are received?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Array",
+          "Tree"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]
