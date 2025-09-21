@@ -1,5 +1,10 @@
 body {
     font-family: 'Inter', sans-serif;
+    /* Add padding to respect the safe areas */
+    padding-top: env(safe-area-inset-top);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
 }
 
 .card {
@@ -70,4 +75,5 @@ body {
 #start-quiz-btn{
     margin-top: 2.5vh;
 }
+
 
