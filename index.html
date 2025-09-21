@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn-It-All Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="quiz-logo.gif">
+    <link rel="stylesheet" href="bg.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div id="app" class="max-w-2xl w-full">
+        <div id="main-menu" class="card text-center">
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Learn With SmartQuiz</h1>
+            <p class="text-gray-600 mb-8">Master every subject with quizzes.</p>
+            <div class="flex flex-col sm:flex-col gap-4 justify-center">
+                <button id="start-quiz-btn" class="btn btn-primary">Start Programming Quiz</button>
+                <button id="add-questions-btn" class="btn btn-secondary">Add Custom Questions</button>
+            </div>
+        </div>
+
+        <div id="chapter-selection-view" class="card hidden">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-6">Select a Chapter</h2>
+            <div id="chapter-list-container">
+            </div>
+            <div class="mt-6 text-center">
+                <button id="back-to-menu-from-chapters-btn" class="btn btn-secondary">Back to Main Menu</button>
+            </div>
+        </div>
+
+        <div id="quiz-view" class="card hidden">
+            <div class="mb-6">
+                <div class="flex justify-between items-center mb-2">
+                    <button id="home-btn"
+                        class="text-sm font-semibold text-gray-600 hover:text-indigo-600 transition-colors">←
+                        Home</button>
+                    <div class="flex items-center gap-4">
+                        <p class="text-sm font-medium text-gray-500">Question <span id="question-count"></span></p>
+                        <p class="text-sm font-medium text-indigo-600">Score: <span id="score-count">0</span></p>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div id="progress-bar" class="bg-indigo-600 h-2.5 rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+            <h2 id="question-text" class="text-2xl font-semibold text-gray-800 mb-6"></h2>
+            <div id="options-container"></div>
+            <div class="flex justify-end mt-6">
+                <button id="skip-question-btn" class="btn btn-secondary text-sm">Skip Question</button>
+            </div>
+            <p id="feedback-text" class="mt-4 text-center font-semibold text-lg"></p>
+        </div>
+
+        <div id="quiz-complete-view" class="card hidden">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-gray-800 mb-2">Congratulations!</h1>
+                <p class="text-gray-600 mb-4">You've completed the quiz.</p>
+                <p class="text-3xl font-bold text-indigo-600 mb-6">Final Score: <span id="final-score"></span></p>
+            </div>
+
+            <div id="quiz-summary" class="mt-6">
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+                <button id="play-again-btn" class="btn btn-primary">Play Same Chapter</button>
+                <button id="back-to-menu-btn" class="btn btn-secondary">Main Menu</button>
+            </div>
+        </div>
+
+        <div id="add-questions-view" class="card hidden">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Add Custom Questions</h2>
+
+            <div class="mb-8 p-4 border rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-700 mb-4">Add a Single Question</h3>
+                <div class="space-y-4">
+                    <div>
+                        <label for="chapter-name-input" class="block text-sm font-medium text-gray-700">Chapter
+                            Name</label>
+                        <input type="text" id="chapter-name-input"
+                            class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                            placeholder="e.g., JavaScript Basics">
+                    </div>
+                    <div>
+                        <label for="question-text-input"
+                            class="block text-sm font-medium text-gray-700">Question</label>
+                        <textarea id="question-text-input" rows="2"
+                            class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                            placeholder="What is the capital of France?"></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Options (select the correct one)</label>
+                        <div id="single-question-options-container" class="mt-2 space-y-2">
+                        </div>
+                    </div>
+                    <button id="save-question-btn" class="btn btn-primary w-full">Save Question</button>
+                    <p id="single-add-feedback" class="text-center text-sm font-medium h-4"></p>
+                </div>
+            </div>
+
+            <div class="p-4 border rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-700 mb-4">Bulk Add Questions</h3>
+                <p class="text-sm text-gray-500 mb-2"><b>Paste this prompt and generate questions.</b><br>
+
+                    Hello! I am creating a quiz app and need a set of questions for the topic: [Topic Name].
+<br><br>
+                    Please provide a minimum of 25-30 questions in a single JSON array. The questions should be a mix of
+                    multiple-choice (mcq) and true/false (tf) types and should be suitable for someone learning the
+                    topic, potentially including interview-style questions.
+<br><br>
+                    The JSON structure must follow this exact format, with the "type" key appearing before the "text"
+                    key inside each question object:
+                </p>
+                <br>
+                <div class="bg-gray-800 text-white p-2 rounded-md text-xs mb-4 overflow-x-auto">
+                    <pre><code>[
+  {
+    "name": "[Topic Name]",
+    "questions": [
+      {
+        "type": "mcq",
+        "text": "This is the question text?",
+        "options": ["Option A", "Option B", "Option C", "Option D"],
+        "answer": 0
+      },
+      {
+        "type": "tf",
+        "text": "This is a true or false statement.",
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ]
+  }
+]</code></pre>
+                </div>
+                <textarea id="bulk-questions-input" rows="6"
+                    class="w-full border border-gray-300 rounded-md shadow-sm p-2 font-mono text-sm"
+                    placeholder="Paste your JSON here..."></textarea>
+                <button id="save-bulk-btn" class="btn btn-primary w-full mt-4">Save Bulk Questions</button>
+                <p id="bulk-add-feedback" class="text-center text-sm font-medium mt-2 h-4"></p>
+            </div>
+
+            <div class="mt-8 text-center">
+                <button id="back-to-menu-from-add-btn" class="btn btn-secondary">Back to Main Menu</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="confirm-modal"
+        class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white rounded-lg p-6 shadow-xl w-full max-w-sm">
+            <h3 id="modal-title" class="text-lg font-medium text-gray-900 mb-4">Confirmation</h3>
+            <p id="modal-body" class="text-sm text-gray-600 mb-6"></p>
+            <div class="flex justify-end gap-4">
+                <button id="modal-cancel-btn" class="btn btn-secondary">Cancel</button>
+                <button id="modal-confirm-btn" class="btn btn-primary">OK</button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
