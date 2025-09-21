@@ -21,24 +21,10 @@
 ## 🚀 How It Works
 1. The app shows a question.  
 2. If your answer is **correct**, it marks the question as learned.  
-3. If your answer is **wrong**, the question goes back into the queue.  
-4. Game continues until **all questions are mastered** 🎉  
+3. If your answer is **wrong**, the question comes in end with correct answer.  
 
 It’s like your personal **smart teacher + revision tool** 👨‍🏫✨  
 
-
----
-## 📸 Demo Flow
-Q: 2 + 2 = ?
-> You answered: 3 ❌ Wrong → Question will repeat later  
-> Correct Answer: 4  
-
-Q: The Earth is flat
-> You answered: False ✅ Correct  
-
-🎉 End: All questions learned!
-
----
 
 ## 🔮 Future Ideas
 
@@ -47,6 +33,8 @@ Add leaderboards & scoring 🏆
 Dark/Light theme toggle 🌙☀️
 
 Question categories (Math, Science, GK)
+
+Easy, hard levels
 
 ---
 
