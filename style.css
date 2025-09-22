@@ -104,3 +104,10 @@ html {
     }
 
 }
+
+/* Prevent the question count from wrapping on small screens */
+.chapter-btn .text-sm {
+    white-space: nowrap; /* This is the key property */
+    flex-shrink: 0;      /* Prevents this item from shrinking */
+    margin-left: 1rem;   /* Adds a nice gap between the items */
+}
