@@ -10,7 +10,15 @@ body {
   -moz-user-select: none;    /* Firefox */
   -ms-user-select: none;     /* IE/Edge */
 }
+html, body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available; /* Crucial for older iOS Safari versions */
+    width: 100%;
+}
 
+html {
+    height: -webkit-fill-available; /* Another Safari fix */
+}
 .card {
     background-color: white;
     border-radius: 1rem;
@@ -79,3 +87,4 @@ body {
 #start-quiz-btn{
     margin-top: 2.5vh;
 }
+
