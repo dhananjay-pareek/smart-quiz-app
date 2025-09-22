@@ -88,3 +88,19 @@ html {
     margin-top: 2.5vh;
 }
 
+/* --- Mobile Font Size Adjustments --- */
+
+/* This rule applies only to screens 768px wide or smaller */
+@media (max-width: 768px) {
+
+    /* Target the first span (the chapter name) inside the button */
+    .chapter-btn > span:first-child {
+        font-size: 0.875rem; /* Equivalent to Tailwind's text-sm (14px) */
+    }
+
+    /* Target the second span (the question count) */
+    .chapter-btn > span.text-sm {
+        font-size: 0.75rem; /* Equivalent to Tailwind's text-xs (12px) */
+    }
+
+}
