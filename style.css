@@ -5,6 +5,10 @@ body {
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
     padding-bottom: env(safe-area-inset-bottom);
+    user-select: none;
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
 }
 
 .card {
@@ -75,5 +79,3 @@ body {
 #start-quiz-btn{
     margin-top: 2.5vh;
 }
-
-
