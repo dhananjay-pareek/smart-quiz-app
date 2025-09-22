@@ -1,6 +1,6 @@
 [
   {
-    "name": "History and Features of Programming Languages",
+    "name": "History and Features",
     "questions": [
       {
         "type": "mcq",
@@ -263,4 +263,5 @@
       }
     ]
   }
+
 ]
