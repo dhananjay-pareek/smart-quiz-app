@@ -26,15 +26,49 @@
 It’s like your personal **smart teacher + revision tool** 👨‍🏫✨  
 
 
-## 🔮 Future Ideas
+## 🚀 Future Enhancement Ideas
 
-Add leaderboards & scoring 🏆
+### **Immediate Enhancements**
+- [ ] **Dark Mode Toggle** - Theme switcher with localStorage preference saving
+- [ ] **Quiz Statistics & Analytics** - Performance tracking, average scores, and statistics dashboard
+- [ ] **Question Difficulty Levels** - Easy/Medium/Hard ratings with adaptive difficulty
+- [ ] **Sound Effects & Animations** - Audio feedback, smooth transitions, and celebration animations
+- [ ] **Quiz Categories & Tags** - Organize by programming languages and skill levels
 
-Dark/Light theme toggle 🌙☀️
+### **User Experience Improvements**
+- [ ] **Better Mobile Experience** - Swipe gestures, touch-friendly design, mobile optimization
+- [ ] **Keyboard Navigation** - Use 1-4 keys for answers, Enter/Space shortcuts, arrow key navigation
+- [ ] **Multiple Quiz Modes**
+  - Study Mode (immediate feedback)
+  - Exam Mode (feedback at end)
+  - Speed Mode (time limits)
+  - Challenge Mode (increasing difficulty)
 
-Question categories (Math, Science, GK)
+### **Data & Progress Features**
+- [ ] **Leaderboard System** - Local high scores, achievement badges, progress comparison
+- [ ] **Export/Import Progress** - JSON data export/import, progress sharing
+- [ ] **Question Favoriting** - Mark for review, custom study sets, difficult question filtering
+- [ ] **Search Functionality** - Keyword search, chapter/difficulty filtering
 
-Easy, hard levels
+### **Visual Enhancements**
+- [ ] **Custom Themes** - Multiple color schemes, user customization, seasonal themes
+- [ ] **Progress Visualization** - Circular indicators, streak counters, achievement system
+- [ ] **Advanced Question Types**
+  - Image-based questions
+  - Code snippet questions
+  - Drag-and-drop answers
+  - Fill-in-the-blank
+
+### **Performance & Quality**
+- [ ] **Offline Support** - Service worker implementation, local caching, sync capabilities
+- [ ] **Question Quality Tools** - Community feedback, error reporting, difficulty voting
+- [ ] **Performance Optimization** - Faster loading, better caching, responsive design
+
+### **Community Features**
+- [ ] **Question Sharing** - Community question contributions
+- [ ] **Progress Sharing** - Social media integration
+- [ ] **Collaborative Learning** - Study groups, shared progress tracking
+
 
 ---
 
