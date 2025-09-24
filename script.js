@@ -45,11 +45,6 @@ const App = {
         quizSummary: document.getElementById('quiz-summary'),
 
         // Add Questions UI
-        chapterNameInput: document.getElementById('chapter-name-input'),
-        questionTextInput: document.getElementById('question-text-input'),
-        singleQuestionOptionsContainer: document.getElementById('single-question-options-container'),
-        saveQuestionBtn: document.getElementById('save-question-btn'),
-        singleAddFeedback: document.getElementById('single-add-feedback'),
         bulkQuestionsInput: document.getElementById('bulk-questions-input'),
         saveBulkBtn: document.getElementById('save-bulk-btn'),
         bulkAddFeedback: document.getElementById('bulk-add-feedback'),
@@ -79,7 +74,6 @@ const App = {
         this.elements.skipQuestionBtn.addEventListener('click', () => this.skipQuestion());
         this.elements.backToMenuFromAddBtn.addEventListener('click', () => this.switchView('main-menu'));
         this.elements.modalCancelBtn.addEventListener('click', () => this.hideConfirmModal());
-        this.elements.saveQuestionBtn.addEventListener('click', () => this.saveSingleQuestion());
         this.elements.saveBulkBtn.addEventListener('click', () => this.saveBulkQuestions());
     },
 
@@ -322,26 +316,6 @@ const App = {
         return Object.values(progress).filter(p => p.completed).length;
     },
 
-    saveSingleQuestion() {
-        const chapterName = this.elements.chapterNameInput.value.trim();
-        const questionText = this.elements.questionTextInput.value.trim();
-        const options = [...this.elements.singleQuestionOptionsContainer.querySelectorAll('input[type="text"]')].map(input => input.value.trim());
-        const correctAnswerInput = this.elements.singleQuestionOptionsContainer.querySelector('input[type="radio"]:checked');
-
-        if (!chapterName || !questionText || options.some(opt => !opt) || !correctAnswerInput) {
-            this.elements.singleAddFeedback.textContent = "Please fill out all fields.";
-            this.elements.singleAddFeedback.className = 'text-center text-sm font-medium text-red-600';
-            return;
-        }
-
-        const newQuestion = { text: questionText, options: options, answer: parseInt(correctAnswerInput.value, 10) };
-        this.saveCustomQuestion(chapterName, newQuestion);
-
-        this.elements.singleAddFeedback.textContent = "Question saved successfully!";
-        this.elements.singleAddFeedback.className = 'text-center text-sm font-medium text-green-600';
-        this.renderAddQuestionForm(); // Clear the form
-    },
-
     saveBulkQuestions() {
         const jsonInput = this.elements.bulkQuestionsInput.value.trim();
         if (!jsonInput) {
@@ -432,24 +406,8 @@ const App = {
     },
 
     renderAddQuestionForm() {
-        this.elements.chapterNameInput.value = '';
-        this.elements.questionTextInput.value = '';
         this.elements.bulkQuestionsInput.value = '';
-        this.elements.singleAddFeedback.textContent = '';
         this.elements.bulkAddFeedback.textContent = '';
-
-        const optionsContainer = this.elements.singleQuestionOptionsContainer;
-        optionsContainer.innerHTML = '';
-        for (let i = 0; i < 4; i++) {
-            const div = document.createElement('div');
-            div.className = 'flex items-center gap-2';
-            div.innerHTML = `
-                        <input type="radio" name="correct-answer" value="${i}" id="option-radio-${i}" class="h-4 w-4">
-                        <input type="text" placeholder="Option ${i + 1}" class="block w-full text-sm">
-                    `;
-            optionsContainer.appendChild(div);
-        }
-        document.getElementById('option-radio-0').checked = true;
     },
 
     // MODAL UTILITIES
@@ -465,5 +423,6 @@ const App = {
     },
     hideConfirmModal() { this.elements.confirmModal.classList.add('hidden'); },
 };
+
 
 App.init();
